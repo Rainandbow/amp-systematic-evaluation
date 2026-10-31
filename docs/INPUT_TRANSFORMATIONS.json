@@ -1,0 +1,69 @@
+{
+  "verified": "2026-10-31",
+  "files": [
+    {
+      "file": "candidates.tsv",
+      "rows": 169,
+      "bytes": 84494,
+      "original_sha256": "c6539b120ec379d282497433b100403a8088a1706553f7b0bb7ba616859d406b",
+      "public_sha256": "c6539b120ec379d282497433b100403a8088a1706553f7b0bb7ba616859d406b",
+      "transformation": "byte-identical to frozen input"
+    },
+    {
+      "file": "members151.tsv",
+      "rows": 151,
+      "bytes": 152571,
+      "original_sha256": "1f4c8cc8b9042a75558f9a87b2fbae3f150a1ef4810d7ad21f41f632da496161",
+      "public_sha256": "1f4c8cc8b9042a75558f9a87b2fbae3f150a1ef4810d7ad21f41f632da496161",
+      "transformation": "byte-identical to frozen input"
+    },
+    {
+      "file": "scores151.tsv",
+      "rows": 906,
+      "bytes": 253202,
+      "original_sha256": "42d0b363451b91f3a755a1e5afe45a03265f57ac378f00a744fad298b349514f",
+      "public_sha256": "42d0b363451b91f3a755a1e5afe45a03265f57ac378f00a744fad298b349514f",
+      "transformation": "byte-identical to frozen input"
+    },
+    {
+      "file": "task_labels.tsv",
+      "rows": 1146,
+      "bytes": 266980,
+      "original_sha256": "7d313b397050ecf976c28b1787cba6698224b6e008759331315508194db604a8",
+      "public_sha256": "7d313b397050ecf976c28b1787cba6698224b6e008759331315508194db604a8",
+      "transformation": "byte-identical to frozen input"
+    },
+    {
+      "file": "historical_members.tsv.gz",
+      "rows": 29104,
+      "bytes": 1584229,
+      "original_sha256": "f3b4f9702686bb1fbaa25c9e3db1734411e7aa9bfdeac437d8a8309fa9655396",
+      "public_sha256": "74dd5216242b37962042c24070d2fa8c90d002fd3152b6bb492a904d7858cffd",
+      "transformation": "historical sequence letters replaced by their existing SHA256 identity; all other cell values and row order unchanged"
+    },
+    {
+      "file": "historical_scores.tsv.gz",
+      "rows": 41956,
+      "bytes": 4204782,
+      "original_sha256": "5dfd8a772ed20117f6f03a1b674b1185a4ecae6c2ad8c7b6409a02864c96e8fe",
+      "public_sha256": "00eb686dae399a35a142b42b3e74e9e692b5ff9a74d153bc2c2d704154a570fa",
+      "transformation": "historical sequence letters replaced by their existing SHA256 identity; all other cell values and row order unchanged"
+    },
+    {
+      "file": "original_policies.tsv",
+      "rows": 36,
+      "bytes": 11000,
+      "original_sha256": "9903ef0cb117f0244bfae3ec8912e03b510ffe59b8a65bd65f57bde49412be3b",
+      "public_sha256": "9903ef0cb117f0244bfae3ec8912e03b510ffe59b8a65bd65f57bde49412be3b",
+      "transformation": "byte-identical to frozen input"
+    },
+    {
+      "file": "original_budget_points.tsv",
+      "rows": 2688,
+      "bytes": 774584,
+      "original_sha256": "5578b0037cf8deef8228dbec4d05d6b42c6eb22c18904dd7cea9a4fd2f349eca",
+      "public_sha256": "5578b0037cf8deef8228dbec4d05d6b42c6eb22c18904dd7cea9a4fd2f349eca",
+      "transformation": "byte-identical to frozen input"
+    }
+  ]
+}

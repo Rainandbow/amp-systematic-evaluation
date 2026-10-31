@@ -1,44 +1,40 @@
-# 抗菌肽预测模型系统评价：代码上传准备版
+# 抗菌肽预测模型系统评价：代码与统计复算输入
 
-对应仓库：https://github.com/Rainandbow/amp-systematic-evaluation
+原创代码及归档的绘图代码统一使用 **Apache 2.0**；整理生成的数据使用
+**CC BY 4.0**，保留原始文献署名和第三方权利。详见 `NOTICE`、
+`docs/LICENSING.md` 和 `docs/SOURCES.md`。
 
-本目录尚未发布 GitHub Release，也没有 Zenodo DOI。所有代码和统计表由已有归档整理，不重新计算论文结果。
+本版已包含统计复算所需的八份文件，位于 `analysis/inputs/`。
+六份保持冻结输入原字节；两份历史表将序列字母替换为同一序列的 SHA256，
+其他单元格和行顺序保持不变。标签、分组、模型分数、预测和判定规则不变。
 
-## 已包含
+## 核查与复算
 
-- `analysis/`：六方向序列基线、家族内 AUROC、分组隔离筛选验证代码与固定配置。
-- `figures/`：从已完成的正式统计表重建主图4、主图5及补充图S20–S24的代码、统计表和图形检查工具。
-- `historical_reference/`：历史比较、预算敏感性、阈值任务敏感性和旧版图件的参考代码。
-- `tools/import_local_inputs.py`：核对 SHA256 后导入已有本地分析包中的八份输入。
-
-## 本地核查与绘图
-
-```powershell
+```bash
 python -m pip install -r requirements.txt
 python run.py check
+python run.py analysis-check
 python run.py test
+python run.py baseline
+python run.py transfer
 python run.py figures
 ```
 
-前两项核查不需要 GPU 或模型权重。绘图使用已保存的正式结果，不重新推理或 bootstrap。图件输出在新建的 `figures/output_*` 目录。
+`baseline` 重算新增基线/家族分析及 10,000 次分组 bootstrap；`transfer`
+重算六个留一来源折、每折 20 次分组隔离验证。新结果写入独立目录。
+`figures` 单独使用已冻结正式结果重建主图4、主图5及补充图S20–S24，
+不会自动替换为新复算的结果。以上命令不需要 GPU 或模型权重。
 
-## 完整复算的数据状态
+八份输入覆盖新增151候选基线/家族分析和历史分组筛选验证，不能据此声称
+整篇论文所有图件均已从原始实验资料独立重建。历史原始序列重取、重新分组
+和模型推理需要原始数据来源与第三方模型环境，见数据获取说明。
 
-原始序列、逐条实验标签和原始来源文件没有放入这个上传目录。已有的完整内部分析包仍保留在本机，八份输入的文件名和哈希记录在 `analysis/input_manifest.json`。
+## 版本与引用
 
-导入现有本地包后可以执行完整新增分析：
+仓库：https://github.com/Rainandbow/amp-systematic-evaluation
 
-```powershell
-python tools/import_local_inputs.py --source "已有amp_baseline_honest分析包.zip的完整路径"
-python run.py analysis-check
-python run.py baseline
-python run.py transfer
-```
+已有 v1.0.0：https://doi.org/10.5281/zenodo.23834121
 
-这八份输入导入到 `analysis/inputs/` 后由 `.gitignore` 排除。需要先确认第三方数据的再分发条件，再为数据补充公开获取地址；当前不能将本仓库描述为已经包含全论文的全部可复算输入。
-
-## 上传方式
-
-在 GitHub 点击 `Add file → Upload files`，拖入本目录内的文件和子目录，确认顶层能直接看到 `README.md`、`run.py`、`analysis/` 和 `figures/`，然后提交。本目录含多个子目录，若浏览器提示文件数量上限，分批上传即可。
-
-完成代码和数据获取说明后，再连接 Zenodo 并发布正式版本。准确操作见 `docs/RELEASE_STEPS_zh.md`。
+v1.0.0 是早期代码快照，不含本次新增输入。当前更新应通过新提交和新版本
+归档；新版本 DOI 必须在 Zenodo 实际生成后填写，不能沿用旧 DOI 并声称
+旧版本包含本次数据。发布操作见 `docs/RELEASE_STEPS_zh.md`。

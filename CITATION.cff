@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "Please cite the exact archived release used; retain the source-data and third-party attributions in NOTICE."
+type: software
+title: "Systematic evaluation of released AMP predictors"
+authors:
+  - family-names: "Jin"
+    given-names: "Zhiyu"
+  - family-names: "Xiao"
+    given-names: "Feifei"
+repository-code: "https://github.com/Rainandbow/amp-systematic-evaluation"
+url: "https://github.com/Rainandbow/amp-systematic-evaluation"
+license: Apache-2.0
+keywords:
+  - antimicrobial peptides
+  - model benchmarking
+  - selective prediction
+  - reproducibility

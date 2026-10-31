@@ -1,9 +1,31 @@
-# Reconstruction scope and provenance
+# Reproducibility scope
 
-1. `analysis/` keeps the baseline/family and honest-transfer numerical implementations byte-for-byte from the checked author package. The analytic protocol is unchanged. Its package manifest was regenerated for the code-only distribution; sequence-input hashes remain unchanged.
-2. `figures/` keeps the seven-figure renderer unchanged. Two unused sequence-level tables were removed from the plotting inputs and its input manifest was regenerated. All retained statistics are byte-identical to the formal results. Plot generation does not recreate missing numerical analyses.
-3. `historical_reference/` retains earlier numerical and plotting source files. Its original 498-file manifest is an expected reference inventory, not a claim that all those source inputs are included in this code upload. Full historical reconstruction requires restoration of the original archive structure and manifest-verified files. Earlier scripts and figure numbering are retained as provenance.
-4. The repository entry point verifies the complete upload manifest, checks formal table alignment and runs synthetic algorithm tests. It does not replace the separate source-evidence audit or verify training-set independence.
-5. The release is not yet assigned v1.0.0, a Zenodo DOI, a blanket licence or software creators. These should be finalized with the public data-access record before the manuscript describes a completed reproducibility deposit.
+The public inputs support numerical recomputation of the added sequence
+baselines, within-family ranking and group-separated selection analyses from
+saved model outputs. The mathematical implementations, protocol and seeds are
+unchanged. The historical loader alone accepts a hash-based public sequence
+representation; it also retains compatibility with original raw-letter inputs.
 
-`SOURCE_PROVENANCE.json` maps retained original files to source packages and hashes. `MANIFEST_SHA256.json` verifies this prepared upload. Validation receipts are supplied next to the upload directory, not mixed with formal study results.
+The eight public files have independent SHA256 fingerprints. Six are byte-for-
+byte copies of the frozen inputs. The two historical tables replace only the
+sequence column with sequence_sha256, checking it against the existing
+sequence_id for every row. All other cell values and row order are identical.
+See INPUT_TRANSFORMATIONS.json and ORIGINAL_INPUT_FINGERPRINTS.json.
+
+Top-level check validates the whole distribution and frozen formal tables;
+analysis-check validates all eight inputs and their alignment; test exercises
+eleven synthetic numerical cases plus input alignment. Baseline and transfer
+perform fresh calculations. Figures rebuild seven assets from frozen formal
+results and do not implicitly use the fresh numerical output directory.
+
+The package does not include model weights, inference environments, original
+PDFs/workbooks or historical raw sequence letters. Its historical_reference
+directory retains older code and an original 498-file inventory as provenance;
+that full inventory is not bundled. Therefore this is not a claim that every
+manuscript figure or every original evidence extraction can be independently
+reconstructed from this repository alone.
+
+Original implementation provenance remains in SOURCE_PROVENANCE.json. The
+changed input loader and release documentation are identified in
+RELEASE_CHANGES.json. Reused QA scripts retain their exact upstream contents,
+Apache-2.0 licence and attribution.

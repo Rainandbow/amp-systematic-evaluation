@@ -124,8 +124,17 @@ def load_historical():
     aligned=[]
     for m in members:
         s=ix[m['dataset'],m['sequence_id']]
-        assert s['sequence']==m['sequence'] and s['label']==m['label']
-        assert m['sequence_id']=='s_'+hashlib.sha256(m['sequence'].encode('ascii')).hexdigest()
+        assert s['label']==m['label']
+        if 'sequence' in m or 'sequence' in s:
+            # Compatibility with the original private frozen inputs.
+            assert s['sequence']==m['sequence']
+            digest=hashlib.sha256(m['sequence'].encode('ascii')).hexdigest()
+        else:
+            # Public statistical inputs retain exact identity without raw letters.
+            digest=m['sequence_sha256']
+            assert s['sequence_sha256']==digest
+            assert len(digest)==64 and all(c in '0123456789abcdef' for c in digest)
+        assert m['sequence_id']=='s_'+digest
         for model in MODELS:assert s[model+'__prediction']==m[model+'__prediction']
         aligned.append(dict(s,global_group=m['global_group']))
     assert set(r['dataset'] for r in aligned)==set(SOURCES)

@@ -22,7 +22,10 @@
   "analysis/code/common.py": {
     "origin": "amp_baseline_honest_v1_ascii_20261026.zip/code/common.py",
     "sha256": "dee72c7f6028bcbdc623ffe9473ddbc476c0f909efea7acd9415ebc10e761faf",
-    "analytical_code_unchanged": true
+    "analytical_code_unchanged": false,
+    "statistical_algorithms_unchanged": true,
+    "distribution_sha256": "4a9c764c0a6993d0d0495adf6d3745f4541d52825bd03578a4a56c07541ce738",
+    "modification": "Historical input reader additionally accepts sequence_sha256 in place of raw sequence letters; all statistical functions unchanged. The sha256 field preserves the original source fingerprint."
   },
   "analysis/code/honest_transfer.py": {
     "origin": "amp_baseline_honest_v1_ascii_20261026.zip/code/honest_transfer.py",

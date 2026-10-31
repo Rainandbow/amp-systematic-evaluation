@@ -27,5 +27,5 @@
     "requirements.txt": "d1c415675b6ddab455fc9a7d43b2d382237eb55fd668961b0ac0c971d5b1da58",
     "run.py": "b4ff0df3ace3b535347ee2154a525b79ed8129a02d2bd1522368d5fa1349b248"
   },
-  "scope": "code and bundled inputs; external numerical inputs separately verified"
+  "scope": "Packaged code and licensed processed inputs"
 }

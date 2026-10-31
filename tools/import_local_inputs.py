@@ -1,4 +1,4 @@
-"""Import the eight frozen inputs from an existing local author analysis package."""
+"""Restore the eight public processed inputs from a complete updated release ZIP or directory."""
 from pathlib import Path
 from zipfile import ZipFile
 import argparse
@@ -9,7 +9,7 @@ ROOT = Path(__file__).resolve().parents[1]
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('--source', type=Path, required=True, help='Existing baseline/honest package directory or ZIP')
+    parser.add_argument('--source', type=Path, required=True, help='Public processed-input directory or complete updated release ZIP')
     args = parser.parse_args()
     expected = json.loads((ROOT/'analysis/input_manifest.json').read_text(encoding='utf-8'))['files']
     contents = {}
@@ -37,7 +37,7 @@ def main():
         if not target.exists():
             target.write_bytes(content)
     print('IMPORTED AND SHA256-VERIFIED', len(contents), 'inputs into', destination)
-    print('These local inputs are excluded by .gitignore; public deposition is a separate step.')
+    print('These are the reviewed public processed inputs; the earlier raw author ZIP has different historical fingerprints.')
 
 if __name__ == '__main__':
     main()

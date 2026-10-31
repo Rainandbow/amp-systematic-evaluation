@@ -1,15 +1,21 @@
-# 上传、版本与DOI
+# 发布本次许可与输入更新
 
-1. 先将当前目录内的文件和子目录上传到现有 GitHub 仓库。浏览器上传前确认没有选中 `analysis/inputs/`、本地运行结果或整个论文资料文件夹。
-2. 在 README 和 DATA_ACCESS 中补充公开输入数据的获取方式；确认原创代码许可和实际软件作者。版本号不能代替数据获取地址。
-3. 登录 Zenodo 并关联 GitHub；进入个人菜单的 GitHub 页面，点击 Sync now，开启本仓库的归档开关。
-4. 回到 GitHub 的 Releases，创建新标签 `v1.0.0`，Target 选择完成核查的代码提交，填写发布说明并发布。
-5. Zenodo 处理完成后打开对应 v1.0.0 的记录，核对作者、版本、许可和实际归档文件，复制该版本 DOI。
-6. 将 GitHub 仓库链接、v1.0.0 和真实版本 DOI 填入论文。此处不预填虚构 DOI。
+1. 提交这份完整目录到现有仓库，保留已有 v1.0.0 标签及归档。
+   顶层应直接看到 LICENSE、NOTICE、README、analysis、figures 和 docs。
+   `analysis/inputs/` 本次是经过核查的公开处理输入，需一并提交。
+2. 确认本次提交后的 `python run.py check`、`analysis-check` 和 `test` 通过。
+3. 在 GitHub Releases 创建新标签 `v1.0.1`，Target 选择本次完成核查的提交。
+   标题建议：v1.0.1 — licensed code and processed statistical inputs。
+4. 发布说明写明：软件 Apache-2.0；处理数据 CC BY 4.0；新增八份输入；
+   两份历史表使用 SHA256 序列身份；统计方法、种子和冻结结果不变。
+5. Zenodo 的 GitHub 归档开关已启用。归档完成后核对新版本的文件、作者
+   Zhiyu Jin / Feifei Xiao、软件许可 Apache-2.0，以及描述中的数据许可例外。
+   `.zenodo.json` 已提供相应元数据；不预填新版本 DOI。
+6. 将实际生成的新版本 DOI 填入 README 和论文 Code/Data availability。
+   不能将 v1.0.0 DOI 写成含有新增八份输入的归档。
 
-GitHub仓库：https://github.com/Rainandbow/amp-systematic-evaluation
+软件许可默认值对应代码；CC BY 4.0 只对应指定处理数据和其注明的来源。
+不要将第三方模型、权重或原始数据集合宣称为本项目 Apache 2.0 软件。
 
-官方说明：
-- https://help.zenodo.org/docs/github/enable-repository/
-- https://help.zenodo.org/docs/github/archive-software/github-upload/
-- https://docs.github.com/en/repositories/releasing-projects-on-github/managing-releases-in-a-repository
+已有归档：https://doi.org/10.5281/zenodo.23834121
+创建新版本：https://github.com/Rainandbow/amp-systematic-evaluation/releases/new

@@ -30,7 +30,7 @@ def main():
     verify()
     if args.action == 'check':
         child('figures/run.py', 'check')
-        print('Sequence-input recomputation requires the external frozen inputs; see docs/DATA_ACCESS.md.', flush=True)
+        child('analysis/run.py', 'check')
     elif args.action == 'test':
         sys.path.insert(0, str(ROOT/'analysis/code'))
         import selftest
@@ -38,12 +38,13 @@ def main():
         for item in checks:
             print('TEST PASS', item)
         print('NUMERICAL SELF-TESTS PASS', len(checks))
+        child('analysis/run.py', 'check')
     elif args.action == 'figures':
         child('figures/run.py', 'all')
     else:
         needed = ROOT/'analysis/inputs'
         if not needed.is_dir():
-            raise SystemExit('External frozen inputs are missing. Read docs/DATA_ACCESS.md and run tools/import_local_inputs.py.')
+            raise SystemExit('Bundled public inputs are missing. Download the complete updated repository or source ZIP; see docs/DATA_ACCESS.md.')
         action = {'analysis-check':'check','baseline':'baseline','transfer':'honest','all-analyses':'all'}[args.action]
         child('analysis/run.py', action)
 

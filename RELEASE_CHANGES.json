@@ -1,0 +1,200 @@
+{
+  "base_github_commit": "5d384feaa5fdd75095836e70d67bf3f6e85274ab",
+  "prepared_version": "1.0.1",
+  "science": "Only historical-reader schema handling changed; statistical algorithms, protocol, seeds and frozen result tables unchanged",
+  "note": "Generated manifests and this change list are excluded from per-file change hashes to avoid circular fingerprints; the top-level manifest verifies this list and every distribution file.",
+  "files": [
+    {
+      "path": ".gitignore",
+      "status": "modified",
+      "previous_sha256": "4e0154445d0adc480cc419e2eff3e70103c35d9a8d91c1e51ce30e4c28e24133",
+      "new_sha256": "f081609c7318758ac4aac18e2c23f6334c97d9d4ed34587d11678282733fb475"
+    },
+    {
+      "path": ".zenodo.json",
+      "status": "added",
+      "previous_sha256": null,
+      "new_sha256": "77592d0481874ddfc03fc1514d089ef96f964e2d7ed81e43acd591a6da4e94d0"
+    },
+    {
+      "path": "analysis/code/common.py",
+      "status": "modified",
+      "previous_sha256": "dee72c7f6028bcbdc623ffe9473ddbc476c0f909efea7acd9415ebc10e761faf",
+      "new_sha256": "4a9c764c0a6993d0d0495adf6d3745f4541d52825bd03578a4a56c07541ce738"
+    },
+    {
+      "path": "analysis/input_manifest.json",
+      "status": "modified",
+      "previous_sha256": "7cd2a03e8686543184e0e2b5cf83139ad6c30248c58416cbb17fad0973ca2b6b",
+      "new_sha256": "7243ed9f6fc0c19b3b2cc881b2eb5b9519326a0ef4cc1091e1237d4845d6caa3"
+    },
+    {
+      "path": "analysis/inputs/candidates.tsv",
+      "status": "added",
+      "previous_sha256": null,
+      "new_sha256": "c6539b120ec379d282497433b100403a8088a1706553f7b0bb7ba616859d406b"
+    },
+    {
+      "path": "analysis/inputs/historical_members.tsv.gz",
+      "status": "added",
+      "previous_sha256": null,
+      "new_sha256": "74dd5216242b37962042c24070d2fa8c90d002fd3152b6bb492a904d7858cffd"
+    },
+    {
+      "path": "analysis/inputs/historical_scores.tsv.gz",
+      "status": "added",
+      "previous_sha256": null,
+      "new_sha256": "00eb686dae399a35a142b42b3e74e9e692b5ff9a74d153bc2c2d704154a570fa"
+    },
+    {
+      "path": "analysis/inputs/members151.tsv",
+      "status": "added",
+      "previous_sha256": null,
+      "new_sha256": "1f4c8cc8b9042a75558f9a87b2fbae3f150a1ef4810d7ad21f41f632da496161"
+    },
+    {
+      "path": "analysis/inputs/original_budget_points.tsv",
+      "status": "added",
+      "previous_sha256": null,
+      "new_sha256": "5578b0037cf8deef8228dbec4d05d6b42c6eb22c18904dd7cea9a4fd2f349eca"
+    },
+    {
+      "path": "analysis/inputs/original_policies.tsv",
+      "status": "added",
+      "previous_sha256": null,
+      "new_sha256": "9903ef0cb117f0244bfae3ec8912e03b510ffe59b8a65bd65f57bde49412be3b"
+    },
+    {
+      "path": "analysis/inputs/scores151.tsv",
+      "status": "added",
+      "previous_sha256": null,
+      "new_sha256": "42d0b363451b91f3a755a1e5afe45a03265f57ac378f00a744fad298b349514f"
+    },
+    {
+      "path": "analysis/inputs/task_labels.tsv",
+      "status": "added",
+      "previous_sha256": null,
+      "new_sha256": "7d313b397050ecf976c28b1787cba6698224b6e008759331315508194db604a8"
+    },
+    {
+      "path": "CITATION.cff",
+      "status": "added",
+      "previous_sha256": null,
+      "new_sha256": "0e291a9267532c52ec6951aadce8d79e62c72fa14f5b9b3d9d0893c65840a055"
+    },
+    {
+      "path": "docs/AVAILABILITY_TEXT_EN_ZH.md",
+      "status": "added",
+      "previous_sha256": null,
+      "new_sha256": "f07f93914db291f40d62cd3f40e7177fb308eec71fab27e89bd262738d70f0a8"
+    },
+    {
+      "path": "docs/DATA_ACCESS.md",
+      "status": "modified",
+      "previous_sha256": "eee56ddcaa32d0b393366464c7745c1401487f4e08b11db9307e2afa93aaa18e",
+      "new_sha256": "eb9a9a585784011a02dedc695c0753b26ffa73413c09b359a71a2ecf89414ded"
+    },
+    {
+      "path": "docs/INPUT_DATA_DICTIONARY.tsv",
+      "status": "added",
+      "previous_sha256": null,
+      "new_sha256": "a74e983cb055a2a524fe1d49dcf2ac52c1e594853c39cce1415c6d807c884892"
+    },
+    {
+      "path": "docs/INPUT_TRANSFORMATIONS.json",
+      "status": "added",
+      "previous_sha256": null,
+      "new_sha256": "ebf9f9e97fd279f939dbadb8256d1441a33856d5cbee9d822673623e85680222"
+    },
+    {
+      "path": "docs/LICENSING.md",
+      "status": "modified",
+      "previous_sha256": "d03e1061a2f652680934ad64e30faf03c7e24940d6111b07e34e01d3a1f504b2",
+      "new_sha256": "247e6e46557a10c755798f0b711d3be75ebe51fb3a568cd934c88dee5e2ebb18"
+    },
+    {
+      "path": "docs/ORIGINAL_INPUT_FINGERPRINTS.json",
+      "status": "added",
+      "previous_sha256": null,
+      "new_sha256": "7cd2a03e8686543184e0e2b5cf83139ad6c30248c58416cbb17fad0973ca2b6b"
+    },
+    {
+      "path": "docs/RELEASE_STEPS_zh.md",
+      "status": "modified",
+      "previous_sha256": "e0ca5e2fdf01985dffc7122e361eff063826027561a55199573d3af9544dfb82",
+      "new_sha256": "8a80df25bf71012a2a67c8cdf0fd2f8d0caf25d29fe69fa61b498659cbb9d510"
+    },
+    {
+      "path": "docs/REPRODUCIBILITY.md",
+      "status": "modified",
+      "previous_sha256": "855dfe9851d95ded4be064291025cd962ebf0fc2e07c1010a6ef1822323ddbab",
+      "new_sha256": "60a43fb2b15c3d7d67a43a262dac997c6eb28138ff1c68c0635c6c228b4d6f03"
+    },
+    {
+      "path": "docs/SOURCES.md",
+      "status": "added",
+      "previous_sha256": null,
+      "new_sha256": "ba185ad5b32468887cdcc398f8de3023ef801515e3c1f343bbeba06058d42b79"
+    },
+    {
+      "path": "docs/THIRD_PARTY_SOURCES.json",
+      "status": "added",
+      "previous_sha256": null,
+      "new_sha256": "fed9ae07557b020f74b023c47febc363b5b270b33f3325f48b0c2742d4b64592"
+    },
+    {
+      "path": "docs/VALIDATION_RECEIPT.json",
+      "status": "added",
+      "previous_sha256": null,
+      "new_sha256": "cfd1436cb2ec9a974fc01b21c819ca7e64b704c602e825cadc66024a7bff77c4"
+    },
+    {
+      "path": "LICENSE",
+      "status": "added",
+      "previous_sha256": null,
+      "new_sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    {
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "status": "added",
+      "previous_sha256": null,
+      "new_sha256": "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    },
+    {
+      "path": "NOTICE",
+      "status": "added",
+      "previous_sha256": null,
+      "new_sha256": "14295a299d7b953f4baa63f98da2950a0b6d04e6babe3ffd462edbf930a52f1a"
+    },
+    {
+      "path": "README.md",
+      "status": "modified",
+      "previous_sha256": "95728da30ca4d71439afb4a5a80c72257b54836e1c1b24134f57bbd07adbf807",
+      "new_sha256": "3eeb146162c3e362cc8ad718f3ac3a1db50c2cdac1a4ec3acf7f0eaf333573fc"
+    },
+    {
+      "path": "README_zh.md",
+      "status": "modified",
+      "previous_sha256": "40b09ad3e0e8bb98fb694eaf7fee7a7f4fc3f644ca99e62daf7d61ea2ae7a1c3",
+      "new_sha256": "4f71ea663b4cf2b9f5a5620405b75ee1c628d0896fbc529f2776e3a2af8dfc7d"
+    },
+    {
+      "path": "run.py",
+      "status": "modified",
+      "previous_sha256": "508eeac348d46611ab87cf2fde129525ad8213263ebda26b0054d55d34b7fe4a",
+      "new_sha256": "9b7e55419607a5681b275b632a383be4999a6573749d6fbf0be10b69c1535162"
+    },
+    {
+      "path": "SOURCE_PROVENANCE.json",
+      "status": "modified",
+      "previous_sha256": "7d3ef90468157a421a9158bf105762d393953c3d5810a298bbb6b30d47486b9e",
+      "new_sha256": "acf01d3c54e9886c9aa727f61d70675dddb18a3d0896094714b7c9136399fd91"
+    },
+    {
+      "path": "tools/import_local_inputs.py",
+      "status": "modified",
+      "previous_sha256": "24423f734ffb03e48bccf10bb9af3b1933bcc57d91a2333ba21b94c88d5c6da3",
+      "new_sha256": "5b5a7f660b0c7d2cc3e6125ebef5a9e81f55aeeaffad0c3c8203b304921d6d9a"
+    }
+  ]
+}

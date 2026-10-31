@@ -3,7 +3,6 @@ __pycache__/
 .venv/
 venv/
 .env
-analysis/inputs/
 analysis/results/
 figures/output_*/
 historical_reference/frozen/
