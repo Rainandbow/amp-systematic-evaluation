@@ -1,0 +1,37 @@
+{
+  "analysis": "honest_transfer_v1",
+  "repeats": 20,
+  "smoke_only": false,
+  "protocol_sha256": "b0ab1ee774b46f53f968d69bcd5b4e9398bb6441a8e5afba7cee18d41bf65abc",
+  "input_manifest_sha256": "72dfd136bef4dcede45eea0d5a11441e5825390d419323a886264fb066ae252f",
+  "new_model_inference": false,
+  "original_rule_reproduction": "30/30 match, 23 feasible",
+  "leakage": "group and exact-string overlap checked; validation/held labels not passed into curve/choose",
+  "statistical_scope": "finite observed conditional errors; repeated-split quantiles are sensitivity, not CIs or future-risk guarantees",
+  "constraints": {
+    "mixture_original": {
+      "max_error": 0.05,
+      "min_balanced_coverage": 0.2,
+      "min_records": 100,
+      "min_groups": 30
+    },
+    "mixture_source_support": {
+      "max_error": 0.05,
+      "min_balanced_coverage": 0.2,
+      "min_records": 100,
+      "min_groups": 30,
+      "per_source_min_coverage": 0.2,
+      "per_source_min_records": 20,
+      "per_source_min_groups": 5
+    },
+    "per_source_supported": {
+      "per_source_max_error": 0.05,
+      "min_balanced_coverage": 0.2,
+      "min_records": 100,
+      "min_groups": 30,
+      "per_source_min_coverage": 0.2,
+      "per_source_min_records": 20,
+      "per_source_min_groups": 5
+    }
+  }
+}

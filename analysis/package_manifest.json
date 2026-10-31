@@ -1,0 +1,13 @@
+{
+  "files": {
+    "code/baseline_family.py": "b14d8a975077d7fa619df59bb5d8892a379bc26e105561a26668e1ef9e0cdaa8",
+    "code/common.py": "dee72c7f6028bcbdc623ffe9473ddbc476c0f909efea7acd9415ebc10e761faf",
+    "code/honest_transfer.py": "ae339e048f854065fc11d747546727a3fc1a2c934e950cf7c32943b320768db3",
+    "code/selftest.py": "b4352a1f53d89e053ea3798baac7516e0c2d39dac892aaa0db0b9c8d5308573c",
+    "input_manifest.json": "7cd2a03e8686543184e0e2b5cf83139ad6c30248c58416cbb17fad0973ca2b6b",
+    "protocol_v1.json": "b0ab1ee774b46f53f968d69bcd5b4e9398bb6441a8e5afba7cee18d41bf65abc",
+    "requirements.txt": "b278f1339f69781eefd2f8fc58f11e4c07a5fbd9134324562c8c0f65599b34c5",
+    "run.py": "bfea4cd86d20731ea53affeebf904530efd70ea31591764cad1faf4d218adc4a"
+  },
+  "scope": "code and bundled inputs; external numerical inputs separately verified"
+}

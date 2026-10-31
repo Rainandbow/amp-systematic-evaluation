@@ -1,0 +1,78 @@
+{
+  "version": "baseline_honest_v1_20261026",
+  "stage": "analysis design amendment fixed before new computed results; existing v11 data and results already known; not preregistered",
+  "primary_members": 151,
+  "primary_budget_fraction": 0.2,
+  "tasks": [
+    "any_eligible_measured_strain",
+    "source_reference_Ecoli"
+  ],
+  "source_primary_thresholds": {
+    "ApexGO": {
+      "threshold": 64,
+      "unit": "uM",
+      "reference": "E. coli ATCC 11775"
+    },
+    "HydrAMP": {
+      "threshold": 32,
+      "unit": "ug/mL",
+      "reference": "E. coli ATCC 25922"
+    }
+  },
+  "baselines": [
+    "length_high",
+    "length_low",
+    "KR_minus_DE_high",
+    "KR_minus_DE_low",
+    "mean_Kyte_Doolittle_high",
+    "mean_Kyte_Doolittle_low"
+  ],
+  "baseline_policy": "all six single-feature directions reported; no outcome-based best-baseline selection; charge is residue-count proxy ignoring H, termini, stereochemistry and chemistry; no learned baseline fitted",
+  "baseline_bootstrap": 10000,
+  "baseline_seed": 2026102601,
+  "intervals": "pointwise exploratory percentile; paired common block draws; >=5 contributing blocks and >=95% valid; omit degenerate; no multiplicity correction or significance labels",
+  "ties": "expected label-blind fractional allocation within equal-score tier; AUROC half-credit; all methods share members, budget and labels",
+  "family_estimand": "equal-family average of within-family AUROCs among families with both endpoint classes; all source families and exclusion reasons reported; singleton/free groups do not produce within-family discrimination; frozen dependence-block bootstrap",
+  "models_budget": 6,
+  "models_score_extremeness": 5,
+  "camps": "minimum-branch score only a supplementary ranking extension; not eligible for q-based selection",
+  "honest_seed": 2026102602,
+  "honest_repeats": 20,
+  "honest_split_fraction_selection": 0.7,
+  "honest_split": "random partition of global dependence-group IDs; common across all models/policies; no endpoint labels used for partition; no group or exact-string overlap; held-source groups purged first",
+  "thresholds": "all unique q=max(p,1-p) observed in selection subset, include equality; maximize original-source-balanced coverage, lowest threshold at tie; held and internal-validation labels not used",
+  "policies": {
+    "mixture_original": {
+      "max_error": 0.05,
+      "min_balanced_coverage": 0.2,
+      "min_records": 100,
+      "min_groups": 30
+    },
+    "mixture_source_support": {
+      "max_error": 0.05,
+      "min_balanced_coverage": 0.2,
+      "min_records": 100,
+      "min_groups": 30,
+      "per_source_min_coverage": 0.2,
+      "per_source_min_records": 20,
+      "per_source_min_groups": 5
+    },
+    "per_source_supported": {
+      "per_source_max_error": 0.05,
+      "min_balanced_coverage": 0.2,
+      "min_records": 100,
+      "min_groups": 30,
+      "per_source_min_coverage": 0.2,
+      "per_source_min_records": 20,
+      "per_source_min_groups": 5
+    }
+  },
+  "support_control_reason": "compare per_source_supported against mixture_source_support to isolate adding source-risk constraints without confounding added source-support minima; mixture_original preserves published target as a separate reference",
+  "honest_evaluation": "selection subset, independent groups within same five development sources, and untouched held source; evaluate frozen thresholds without refitting on validation",
+  "repeat_distributions": "same held candidates reused across random development partitions; quantiles and ranges describe split sensitivity, are NOT confidence intervals or independent external replications",
+  "no_feasible_rule": "retain explicit unavailability; do not fill with q=.95, use labels to rescue, or silently remove sources",
+  "new_inference": false,
+  "new_wet_lab": false,
+  "closed_comparator_branch": "not used",
+  "output_policy": "fresh directories; no original overwrite; smoke outputs cannot be submitted as formal results"
+}

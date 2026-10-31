@@ -1,0 +1,9 @@
+﻿cohort	task	threshold	unit	reference_strain	n	positive	threshold_negative	blocks	budget	total_families	informative_families	informative_blocks	within_family_status	pooled_AUROC_status
+ApexGO_template_based	any_eligible_measured_strain	64.0	uM		100	86	14	10	0.2	10	4	4	estimable	estimable
+ApexGO_template_based	source_reference_Ecoli	64.0	uM	E. coli ATCC 11775	100	33	67	10	0.2	10	9	9	estimable	estimable
+ApexGO_template_free	any_eligible_measured_strain	64.0	uM		20	20	0	20	0.2	20	0	0	no_family_with_both_endpoint_classes	single_true_class
+ApexGO_template_free	source_reference_Ecoli	64.0	uM	E. coli ATCC 11775	20	14	6	20	0.2	20	0	0	no_family_with_both_endpoint_classes	estimable
+HydrAMP_auxiliary_preselected	any_eligible_measured_strain	32.0	ug/mL		24	13	11	4	0.2	4	3	3	estimable	estimable
+HydrAMP_auxiliary_preselected	source_reference_Ecoli	32.0	ug/mL	E. coli ATCC 25922	24	9	15	4	0.2	4	3	3	estimable	estimable
+HydrAMP_no_auxiliary_preselection	any_eligible_measured_strain	32.0	ug/mL		7	2	5	2	0.2	2	1	1	estimable	estimable
+HydrAMP_no_auxiliary_preselection	source_reference_Ecoli	32.0	ug/mL	E. coli ATCC 25922	7	2	5	2	0.2	2	1	1	estimable	estimable
