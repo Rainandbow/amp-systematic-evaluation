@@ -1,0 +1,15 @@
+{
+  "base_record": "10.5281/zenodo.23856220",
+  "base_version": "v1.1.0",
+  "repair_version": "v1.1.1",
+  "missing_nested_metadata": [
+    "formal_analysis/.gitignore",
+    "formal_analysis/.zenodo.json"
+  ],
+  "root_metadata": "Root .zenodo.json retains the currently uploaded, valid older description and creators; its actual bytes are now correctly pinned. GitHub release tag supplies the new version.",
+  "scientific_inputs_changed": false,
+  "analysis_code_changed": false,
+  "frozen_estimates_or_intervals_changed": false,
+  "checks_skipped": false,
+  "scope": "Repair package inventory consistency; do not fabricate a new DOI or claim public v1.1.1 before archival."
+}

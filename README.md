@@ -2,7 +2,7 @@
 
 Analysis, processed inputs and figure-generation code for Macrel, AMPlify, ampir, tsAMP-I, HMD-AMP and c_AMPs.
 
-## Current manuscript reconstruction prepared for v1.1.0
+## Current manuscript reconstruction prepared for v1.1.1
 
 The complete current six-main-figure workflow is in [`six_main_figures_v1_1_20261101/`](six_main_figures_v1_1_20261101/). From that directory, use Python 3.12 and an isolated environment:
 
@@ -35,3 +35,7 @@ Historical inputs preserve sequence SHA256 identities, labels, lengths, groups, 
 Original and added experimental panels retain separate memberships: the original panel has 156 tested peptides and 84 primary activity positives; the added primary panel has151 candidates (100+20+24+7),121 activity positives and30 above-threshold records. c_AMPs uses the supplementary minimum-branch score only for ranking and remains ineligible for score-extremeness retention/transfer.
 
 Software creators follow the existing confirmed record: Zhiyu Jin and Feifei Xiao. Third-party authors retain their own credits. The manuscript author list is separate from the software record metadata.
+
+
+## Packaging repair prepared for v1.1.1
+The previous v1.1.0 archive is https://doi.org/10.5281/zenodo.23856220. Its website-uploaded snapshot omitted two nested metadata dotfiles and retained an older root metadata file, causing the checksum check to stop. This repair makes the manifests describe the files actually present; no hash checks are disabled. Scientific inputs, model predictions, analysis code, frozen estimates and intervals are unchanged. Use the actual v1.1.1 DOI only after successful archival.
