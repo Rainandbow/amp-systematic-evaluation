@@ -9,7 +9,7 @@
       "name": "Xiao, Feifei"
     }
   ],
-  "description": "Released AMP predictor evaluation. v1.2.0 restores study inference adapters, model-identity fingerprints, recorded runtime versions and 169 identity-verified panel inputs. Fixed-output statistics, activity labels and archived intervals are unchanged. Project code and reused GPL components retain their respective licence scopes.",
+  "description": "Byte-preserving repair of v1.2.0 inference provenance publication. Fixes CRLF/LF transport normalization so distributed files match SHA256 manifests. Scientific inputs, predictions, activity labels and statistical outputs are unchanged. Inference provenance records and original licence scopes are preserved.",
   "license": "Apache-2.0",
   "access_right": "open",
   "keywords": [
@@ -25,5 +25,5 @@
       "scheme": "url"
     }
   ],
-  "version": "v1.2.0"
+  "version": "v1.2.1"
 }

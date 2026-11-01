@@ -1,12 +1,12 @@
 {
   "files": {
     ".gitignore": "f081609c7318758ac4aac18e2c23f6334c97d9d4ed34587d11678282733fb475",
-    ".zenodo.json": "e23479418ce7ca1c74c7768118de625c405cbd9a40e0de9da1d77cedf3295c2f",
-    "CITATION.cff": "c48f3d5a5d2e714c7fca54ab91597b8ef81425dccd274e3ae0a0389d97cae21e",
+    ".zenodo.json": "2c2053630dbfe2e07868363e80b303723732bd2b5a891f30cd18c0a6b7741a5f",
+    "CITATION.cff": "4acee6f411703c4b4cae240e5db39916da4e469a997153593e4a54b27763dd9c",
     "LICENSE": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
     "NOTICE": "14295a299d7b953f4baa63f98da2950a0b6d04e6babe3ffd462edbf930a52f1a",
-    "README.md": "68909554e8526aa5ee25bab9a7d880a8171b914bb3dd18a1abd6764c7c096bd6",
-    "README_zh.md": "a42a4c7e0bef0249fbebfda53db4f4c0e1054791465c019274b08690b6f843a8",
+    "README.md": "6a91db5271994514d96ac54aa8456a99a42b0e10323ba04ea79610ee0d8aa33a",
+    "README_zh.md": "58d542b28d9f00a66cd0138fc5f0cf1ccbb938e8ca5152013b9dea45817de555",
     "RELEASE_CHANGES.json": "a6a421b9a980bd430ac3e7f90963b7a42b5485795c6b3481a30c172dc3cb55b5",
     "requirements.txt": "746990e7878efe72d44cf22c22f5501a3a3e81074291c1e1f864009ee0c0aa48",
     "run.py": "9b7e55419607a5681b275b632a383be4999a6573749d6fbf0be10b69c1535162",
@@ -312,6 +312,7 @@
     "six_main_figures_v1_1_20261101/inputs/original_panel/positive_recall_metrics.tsv": "f2158e6b80fc01986fe77000cd52b5f3c725915f6dc57e2c3b6e15b487b1b7bd",
     "six_main_figures_v1_1_20261101/inputs/original_panel/study_summary.tsv": "71c077b98d59c4fa2ec8d8474498da8d9bc87aed99726d783470f8895fe3fa8e",
     "six_main_figures_v1_1_20261101/MANIFEST_SHA256.json": "80eb2fc22c0db00f0e4d6ec86e580d05e7dddbe3662e372d03e47f7069324f91",
-    "six_main_figures_v1_1_20261101/formal_analysis/MANIFEST_SHA256.json": "137f6ed7998a9f8b3b16178af317d0d3ab116af707944104214baf6798af82b0"
+    "six_main_figures_v1_1_20261101/formal_analysis/MANIFEST_SHA256.json": "137f6ed7998a9f8b3b16178af317d0d3ab116af707944104214baf6798af82b0",
+    "ARCHIVE_REPAIR_v1.2.1.md": "2c43242cc9107f37dce3733d79163bd18da76aefc76dfb71f80501cd6d3f5572"
   }
 }
