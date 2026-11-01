@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 message: "Please cite the exact archived release used; retain the source-data and third-party attributions in NOTICE."
 type: software
-title: "Systematic evaluation of released AMP predictors"
+title: "Systematic evaluation of released AMP predictors: six-figure reconstruction and screening analyses"
 authors:
   - family-names: "Jin"
     given-names: "Zhiyu"
@@ -15,3 +15,5 @@ keywords:
   - model benchmarking
   - selective prediction
   - reproducibility
+
+version: "v1.1.0"
