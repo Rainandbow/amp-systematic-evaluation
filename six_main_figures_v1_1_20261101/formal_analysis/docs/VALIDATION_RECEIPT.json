@@ -1,0 +1,140 @@
+{
+  "status": "PASS",
+  "verified_on": "2026-10-31",
+  "scope": "Public processed inputs and saved-output analyses; not new model inference",
+  "numpy_version": "2.3.5",
+  "bootstrap": 10000,
+  "group_partitions_per_held_source": 20,
+  "frozen_tables_compared": 14,
+  "frozen_tables_byte_identical": 14,
+  "comparison_details": [
+    {
+      "file": "baseline_family\\baseline_and_model_intervals.tsv",
+      "rows": 1056,
+      "fields": 24,
+      "bytes_identical": true,
+      "all_values_match": true,
+      "tolerance": 1e-12
+    },
+    {
+      "file": "baseline_family\\baseline_and_model_points.tsv",
+      "rows": 96,
+      "fields": 28,
+      "bytes_identical": true,
+      "all_values_match": true,
+      "tolerance": 1e-12
+    },
+    {
+      "file": "baseline_family\\endpoint_and_family_availability.tsv",
+      "rows": 8,
+      "fields": 15,
+      "bytes_identical": true,
+      "all_values_match": true,
+      "tolerance": 1e-12
+    },
+    {
+      "file": "baseline_family\\original_budget_reproduction.tsv",
+      "rows": 192,
+      "fields": 6,
+      "bytes_identical": true,
+      "all_values_match": true,
+      "tolerance": 1e-12
+    },
+    {
+      "file": "baseline_family\\paired_model_minus_baseline.tsv",
+      "rows": 1440,
+      "fields": 22,
+      "bytes_identical": true,
+      "all_values_match": true,
+      "tolerance": 1e-12
+    },
+    {
+      "file": "baseline_family\\within_family_details.tsv",
+      "rows": 864,
+      "fields": 24,
+      "bytes_identical": true,
+      "all_values_match": true,
+      "tolerance": 1e-12
+    },
+    {
+      "file": "honest_transfer\\evaluation_by_source.tsv",
+      "rows": 19800,
+      "fields": 28,
+      "bytes_identical": true,
+      "all_values_match": true,
+      "tolerance": 1e-12
+    },
+    {
+      "file": "honest_transfer\\evaluation_points.tsv",
+      "rows": 5400,
+      "fields": 26,
+      "bytes_identical": true,
+      "all_values_match": true,
+      "tolerance": 1e-12
+    },
+    {
+      "file": "honest_transfer\\group_and_exact_overlap_audit.tsv",
+      "rows": 120,
+      "fields": 14,
+      "bytes_identical": true,
+      "all_values_match": true,
+      "tolerance": 1e-12
+    },
+    {
+      "file": "honest_transfer\\original_policy_reproduction.tsv",
+      "rows": 30,
+      "fields": 7,
+      "bytes_identical": true,
+      "all_values_match": true,
+      "tolerance": 1e-12
+    },
+    {
+      "file": "honest_transfer\\paired_strategy_differences.tsv",
+      "rows": 14400,
+      "fields": 10,
+      "bytes_identical": true,
+      "all_values_match": true,
+      "tolerance": 1e-12
+    },
+    {
+      "file": "honest_transfer\\repeated_split_sensitivity_NOT_CI.tsv",
+      "rows": 180,
+      "fields": 39,
+      "bytes_identical": true,
+      "all_values_match": true,
+      "tolerance": 1e-12
+    },
+    {
+      "file": "honest_transfer\\score_ineligible.tsv",
+      "rows": 360,
+      "fields": 7,
+      "bytes_identical": true,
+      "all_values_match": true,
+      "tolerance": 1e-12
+    },
+    {
+      "file": "honest_transfer\\selected_rules.tsv",
+      "rows": 1800,
+      "fields": 16,
+      "bytes_identical": true,
+      "all_values_match": true,
+      "tolerance": 1e-12
+    }
+  ],
+  "numerical_self_tests": 11,
+  "figure_reconstruction_checks": 7,
+  "source_protocol_sha256": "b0ab1ee774b46f53f968d69bcd5b4e9398bb6441a8e5afba7cee18d41bf65abc",
+  "input_manifest_sha256": "7243ed9f6fc0c19b3b2cc881b2eb5b9519326a0ef4cc1091e1237d4845d6caa3",
+  "tests": [
+    "repository and formal-table checks",
+    "eight-input hashes and 151/906/29104 alignment",
+    "eleven synthetic numerical tests",
+    "formal baseline/family recomputation",
+    "formal group-separated transfer recomputation",
+    "fourteen frozen statistical tables byte-identical",
+    "seven frozen-result figure checks"
+  ],
+  "environment_note": "Used existing local dependencies; a fresh isolated pip installation was not performed",
+  "new_model_inference": false,
+  "new_wet_lab": false
+}

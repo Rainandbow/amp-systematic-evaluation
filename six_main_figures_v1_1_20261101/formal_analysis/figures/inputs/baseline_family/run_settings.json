@@ -1,0 +1,13 @@
+{
+  "analysis": "baseline_family_v1",
+  "bootstrap": 10000,
+  "smoke_only": false,
+  "protocol_sha256": "b0ab1ee774b46f53f968d69bcd5b4e9398bb6441a8e5afba7cee18d41bf65abc",
+  "input_manifest_sha256": "72dfd136bef4dcede45eea0d5a11441e5825390d419323a886264fb066ae252f",
+  "rankings": 12,
+  "endpoint_sets": 8,
+  "new_model_inference": false,
+  "new_learned_baseline": false,
+  "interval_scope": "paired pointwise exploratory intervals; no multiplicity-adjusted significance",
+  "family_scope": "descriptive within tested families; no new-family or new-publication validation"
+}

@@ -1,0 +1,157 @@
+{
+  "verified": "2026-10-31",
+  "qa_scripts": [
+    {
+      "path": "figures/qa_tools/audit_figure_collisions.py",
+      "sha256": "4bd020238a9f207c8a67c61d7209cef5959f2995a1d9cd95911d6fa93de7aa36",
+      "upstream_git_blob": "84b87a756c46b30159668112156b3341b324f73e",
+      "licence": "Apache-2.0",
+      "modified": false,
+      "upstream_url": "https://github.com/Yuan1z0825/nature-skills/blob/c1a8e7bbcf86d82a268dc4a9980d36082b31fb2f/skills/nature-figure/scripts/audit_figure_collisions.py"
+    },
+    {
+      "path": "figures/qa_tools/audit_panel_alignment.py",
+      "sha256": "4ed2d6afe9db45aaf6ca26aeb264cfc251ae92b49ee9fbf117d926e1956acf56",
+      "upstream_git_blob": "ccceac328fce90e4346751e31615f5b0b6e24fca",
+      "licence": "Apache-2.0",
+      "modified": false,
+      "upstream_url": "https://github.com/Yuan1z0825/nature-skills/blob/c1a8e7bbcf86d82a268dc4a9980d36082b31fb2f/skills/nature-figure/scripts/audit_panel_alignment.py"
+    },
+    {
+      "path": "figures/qa_tools/audit_pdf_text.py",
+      "sha256": "0b3d3e30ce9ec7191b8ba6dd053226487ab41594297005afcd127acda3b08281",
+      "upstream_git_blob": "10830f22870fe00f365df3989e0af56e6481cb21",
+      "licence": "Apache-2.0",
+      "modified": false,
+      "upstream_url": "https://github.com/Yuan1z0825/nature-skills/blob/c1a8e7bbcf86d82a268dc4a9980d36082b31fb2f/skills/nature-figure/scripts/audit_pdf_text.py"
+    },
+    {
+      "path": "figures/qa_tools/validate_figure.py",
+      "sha256": "09694ac0ac4036d4b759e7c9aeb3d4f7a9b525212db50085d2ea0d88b0e49d76",
+      "upstream_git_blob": "1b52e32a6913cfcdf76507038d761aa041e0b974",
+      "licence": "Apache-2.0",
+      "modified": false,
+      "upstream_url": "https://github.com/Yuan1z0825/nature-skills/blob/c1a8e7bbcf86d82a268dc4a9980d36082b31fb2f/skills/nature-figure/scripts/validate_figure.py"
+    },
+    {
+      "path": "historical_reference/code/audit_figure_collisions.py",
+      "sha256": "4bd020238a9f207c8a67c61d7209cef5959f2995a1d9cd95911d6fa93de7aa36",
+      "upstream_git_blob": "84b87a756c46b30159668112156b3341b324f73e",
+      "licence": "Apache-2.0",
+      "modified": false,
+      "upstream_url": "https://github.com/Yuan1z0825/nature-skills/blob/c1a8e7bbcf86d82a268dc4a9980d36082b31fb2f/skills/nature-figure/scripts/audit_figure_collisions.py"
+    },
+    {
+      "path": "historical_reference/code/audit_panel_alignment.py",
+      "sha256": "4ed2d6afe9db45aaf6ca26aeb264cfc251ae92b49ee9fbf117d926e1956acf56",
+      "upstream_git_blob": "ccceac328fce90e4346751e31615f5b0b6e24fca",
+      "licence": "Apache-2.0",
+      "modified": false,
+      "upstream_url": "https://github.com/Yuan1z0825/nature-skills/blob/c1a8e7bbcf86d82a268dc4a9980d36082b31fb2f/skills/nature-figure/scripts/audit_panel_alignment.py"
+    },
+    {
+      "path": "historical_reference/code/audit_pdf_text.py",
+      "sha256": "0b3d3e30ce9ec7191b8ba6dd053226487ab41594297005afcd127acda3b08281",
+      "upstream_git_blob": "10830f22870fe00f365df3989e0af56e6481cb21",
+      "licence": "Apache-2.0",
+      "modified": false,
+      "upstream_url": "https://github.com/Yuan1z0825/nature-skills/blob/c1a8e7bbcf86d82a268dc4a9980d36082b31fb2f/skills/nature-figure/scripts/audit_pdf_text.py"
+    },
+    {
+      "path": "historical_reference/code/validate_figure.py",
+      "sha256": "09694ac0ac4036d4b759e7c9aeb3d4f7a9b525212db50085d2ea0d88b0e49d76",
+      "upstream_git_blob": "1b52e32a6913cfcdf76507038d761aa041e0b974",
+      "licence": "Apache-2.0",
+      "modified": false,
+      "upstream_url": "https://github.com/Yuan1z0825/nature-skills/blob/c1a8e7bbcf86d82a268dc4a9980d36082b31fb2f/skills/nature-figure/scripts/validate_figure.py"
+    },
+    {
+      "path": "historical_reference/code/legacy_main/code/audit_figure_collisions.py",
+      "sha256": "4bd020238a9f207c8a67c61d7209cef5959f2995a1d9cd95911d6fa93de7aa36",
+      "upstream_git_blob": "84b87a756c46b30159668112156b3341b324f73e",
+      "licence": "Apache-2.0",
+      "modified": false,
+      "upstream_url": "https://github.com/Yuan1z0825/nature-skills/blob/c1a8e7bbcf86d82a268dc4a9980d36082b31fb2f/skills/nature-figure/scripts/audit_figure_collisions.py"
+    },
+    {
+      "path": "historical_reference/code/legacy_main/code/audit_panel_alignment.py",
+      "sha256": "4ed2d6afe9db45aaf6ca26aeb264cfc251ae92b49ee9fbf117d926e1956acf56",
+      "upstream_git_blob": "ccceac328fce90e4346751e31615f5b0b6e24fca",
+      "licence": "Apache-2.0",
+      "modified": false,
+      "upstream_url": "https://github.com/Yuan1z0825/nature-skills/blob/c1a8e7bbcf86d82a268dc4a9980d36082b31fb2f/skills/nature-figure/scripts/audit_panel_alignment.py"
+    },
+    {
+      "path": "historical_reference/code/legacy_main/code/audit_pdf_text.py",
+      "sha256": "0b3d3e30ce9ec7191b8ba6dd053226487ab41594297005afcd127acda3b08281",
+      "upstream_git_blob": "10830f22870fe00f365df3989e0af56e6481cb21",
+      "licence": "Apache-2.0",
+      "modified": false,
+      "upstream_url": "https://github.com/Yuan1z0825/nature-skills/blob/c1a8e7bbcf86d82a268dc4a9980d36082b31fb2f/skills/nature-figure/scripts/audit_pdf_text.py"
+    },
+    {
+      "path": "historical_reference/code/legacy_main/code/validate_figure.py",
+      "sha256": "09694ac0ac4036d4b759e7c9aeb3d4f7a9b525212db50085d2ea0d88b0e49d76",
+      "upstream_git_blob": "1b52e32a6913cfcdf76507038d761aa041e0b974",
+      "licence": "Apache-2.0",
+      "modified": false,
+      "upstream_url": "https://github.com/Yuan1z0825/nature-skills/blob/c1a8e7bbcf86d82a268dc4a9980d36082b31fb2f/skills/nature-figure/scripts/validate_figure.py"
+    },
+    {
+      "path": "historical_reference/code/legacy_supp/code/audit_figure_collisions.py",
+      "sha256": "4bd020238a9f207c8a67c61d7209cef5959f2995a1d9cd95911d6fa93de7aa36",
+      "upstream_git_blob": "84b87a756c46b30159668112156b3341b324f73e",
+      "licence": "Apache-2.0",
+      "modified": false,
+      "upstream_url": "https://github.com/Yuan1z0825/nature-skills/blob/c1a8e7bbcf86d82a268dc4a9980d36082b31fb2f/skills/nature-figure/scripts/audit_figure_collisions.py"
+    },
+    {
+      "path": "historical_reference/code/legacy_supp/code/audit_panel_alignment.py",
+      "sha256": "4ed2d6afe9db45aaf6ca26aeb264cfc251ae92b49ee9fbf117d926e1956acf56",
+      "upstream_git_blob": "ccceac328fce90e4346751e31615f5b0b6e24fca",
+      "licence": "Apache-2.0",
+      "modified": false,
+      "upstream_url": "https://github.com/Yuan1z0825/nature-skills/blob/c1a8e7bbcf86d82a268dc4a9980d36082b31fb2f/skills/nature-figure/scripts/audit_panel_alignment.py"
+    },
+    {
+      "path": "historical_reference/code/legacy_supp/code/audit_pdf_text.py",
+      "sha256": "0b3d3e30ce9ec7191b8ba6dd053226487ab41594297005afcd127acda3b08281",
+      "upstream_git_blob": "10830f22870fe00f365df3989e0af56e6481cb21",
+      "licence": "Apache-2.0",
+      "modified": false,
+      "upstream_url": "https://github.com/Yuan1z0825/nature-skills/blob/c1a8e7bbcf86d82a268dc4a9980d36082b31fb2f/skills/nature-figure/scripts/audit_pdf_text.py"
+    },
+    {
+      "path": "historical_reference/code/legacy_supp/code/validate_figure.py",
+      "sha256": "09694ac0ac4036d4b759e7c9aeb3d4f7a9b525212db50085d2ea0d88b0e49d76",
+      "upstream_git_blob": "1b52e32a6913cfcdf76507038d761aa041e0b974",
+      "licence": "Apache-2.0",
+      "modified": false,
+      "upstream_url": "https://github.com/Yuan1z0825/nature-skills/blob/c1a8e7bbcf86d82a268dc4a9980d36082b31fb2f/skills/nature-figure/scripts/validate_figure.py"
+    }
+  ],
+  "upstream_license_url": "https://github.com/Yuan1z0825/nature-skills/blob/c1a8e7bbcf86d82a268dc4a9980d36082b31fb2f/LICENSE",
+  "experimental_sources": [
+    {
+      "study": "ApexGO",
+      "doi": "10.1038/s42256-026-01237-5",
+      "url": "https://www.nature.com/articles/s42256-026-01237-5",
+      "licence": "CC-BY-4.0",
+      "source_files": [
+        "42256_2026_1237_MOESM1_ESM.pdf",
+        "42256_2026_1237_MOESM3_ESM.csv"
+      ],
+      "attribution": "Torres, M. D. T., Zeng, Y., Wan, F., Maus, N., Gardner, J. and de la Fuente-Nunez, C. (2026). A generative artificial intelligence approach for peptide antibiotic optimization. Nature Machine Intelligence 8, 841–856."
+    },
+    {
+      "study": "HydrAMP",
+      "doi": "10.1038/s41467-023-36994-z",
+      "url": "https://www.nature.com/articles/s41467-023-36994-z",
+      "licence": "CC-BY-4.0",
+      "source_files": [
+        "Supplementary Data 5"
+      ],
+      "attribution": "Szymczak, P. et al. (2023). Discovering highly potent antimicrobial peptides with deep generative model HydrAMP. Nature Communications 14, 1453."
+    }
+  ]
+}

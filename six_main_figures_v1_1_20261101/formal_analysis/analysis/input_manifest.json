@@ -1,0 +1,36 @@
+{
+  "schema": "public-processed-inputs-v1",
+  "source_bundle": "Bundled in analysis/inputs/",
+  "scope": "Added baseline/family and group-separated statistical analyses from saved model outputs",
+  "historical_sequence_representation": "sequence_sha256 replaces sequence letters; sequence_id, labels, groups, scores and predictions retained",
+  "files": {
+    "candidates.tsv": "c6539b120ec379d282497433b100403a8088a1706553f7b0bb7ba616859d406b",
+    "members151.tsv": "1f4c8cc8b9042a75558f9a87b2fbae3f150a1ef4810d7ad21f41f632da496161",
+    "scores151.tsv": "42d0b363451b91f3a755a1e5afe45a03265f57ac378f00a744fad298b349514f",
+    "task_labels.tsv": "7d313b397050ecf976c28b1787cba6698224b6e008759331315508194db604a8",
+    "historical_members.tsv.gz": "74dd5216242b37962042c24070d2fa8c90d002fd3152b6bb492a904d7858cffd",
+    "historical_scores.tsv.gz": "00eb686dae399a35a142b42b3e74e9e692b5ff9a74d153bc2c2d704154a570fa",
+    "original_policies.tsv": "9903ef0cb117f0244bfae3ec8912e03b510ffe59b8a65bd65f57bde49412be3b",
+    "original_budget_points.tsv": "5578b0037cf8deef8228dbec4d05d6b42c6eb22c18904dd7cea9a4fd2f349eca"
+  },
+  "frozen_original_files": {
+    "candidates.tsv": "c6539b120ec379d282497433b100403a8088a1706553f7b0bb7ba616859d406b",
+    "members151.tsv": "1f4c8cc8b9042a75558f9a87b2fbae3f150a1ef4810d7ad21f41f632da496161",
+    "scores151.tsv": "42d0b363451b91f3a755a1e5afe45a03265f57ac378f00a744fad298b349514f",
+    "task_labels.tsv": "7d313b397050ecf976c28b1787cba6698224b6e008759331315508194db604a8",
+    "historical_members.tsv.gz": "f3b4f9702686bb1fbaa25c9e3db1734411e7aa9bfdeac437d8a8309fa9655396",
+    "historical_scores.tsv.gz": "5dfd8a772ed20117f6f03a1b674b1185a4ecae6c2ad8c7b6409a02864c96e8fe",
+    "original_policies.tsv": "9903ef0cb117f0244bfae3ec8912e03b510ffe59b8a65bd65f57bde49412be3b",
+    "original_budget_points.tsv": "5578b0037cf8deef8228dbec4d05d6b42c6eb22c18904dd7cea9a4fd2f349eca"
+  },
+  "source_paths": {
+    "candidates.tsv": "frozen/experimental_inputs/inputs/new_panel_candidates.tsv",
+    "members151.tsv": "frozen/evidence_adjudication/08_新增151活性设计序列_排除定向阴性对照.tsv",
+    "scores151.tsv": "frozen/membership_analysis/active_design_151/sequence_score_diagnostics.tsv",
+    "task_labels.tsv": "frozen/task_threshold/01_成员与阈值任务标签.tsv",
+    "historical_members.tsv.gz": "frozen/experimental_inputs/inputs/frozen_members_and_groups.tsv.gz",
+    "historical_scores.tsv.gz": "frozen/experimental_inputs/inputs/historical_scores.tsv.gz",
+    "original_policies.tsv": "frozen/source_decomposition/inputs/formal_policies.tsv",
+    "original_budget_points.tsv": "frozen/membership_analysis/active_design_151/budget_points.tsv"
+  }
+}

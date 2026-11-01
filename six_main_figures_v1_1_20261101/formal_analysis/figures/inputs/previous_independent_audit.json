@@ -1,0 +1,42 @@
+{
+  "status": "passed",
+  "formal_run": {
+    "action": "all",
+    "smoke_only": false,
+    "bootstrap": 10000,
+    "repeats": 20,
+    "results": {
+      "baseline": {
+        "points": 96,
+        "paired_contrasts": 1440,
+        "family_rows": 864,
+        "smoke_only": false
+      },
+      "honest": {
+        "selected_rules": 1800,
+        "evaluation_rows": 5400,
+        "repeats": 20,
+        "smoke_only": false
+      }
+    },
+    "elapsed_seconds": 116.08483562013134,
+    "new_model_inference": false,
+    "new_wet_lab": false,
+    "protocol_sha256": "b0ab1ee774b46f53f968d69bcd5b4e9398bb6441a8e5afba7cee18d41bf65abc",
+    "input_manifest_sha256": "72dfd136bef4dcede45eea0d5a11441e5825390d419323a886264fb066ae252f"
+  },
+  "archive_crc_passed": true,
+  "protocol_and_input_hashes_match_local_release": true,
+  "budget_reproduction_checks": 192,
+  "original_policy_reproduction_checks": 30,
+  "original_policy_feasible_count": 23,
+  "independent_baseline_point_metric_checks": 288,
+  "paired_difference_checks": 1440,
+  "evaluation_summaries_recomposed_from_source_rows": 5400,
+  "selection_rules_checked": 1800,
+  "group_disjointness_audits": 120,
+  "partition_assignment_rows_replayed": 2564000,
+  "baseline_bootstrap_rerun": false,
+  "new_model_inference": false,
+  "warning": "Pointwise exploratory intervals are unadjusted. Repeated partitions share held samples and are not independent trials. Support matching is not coverage matching; sourcewise rule is a stricter threshold with lower coverage."
+}
