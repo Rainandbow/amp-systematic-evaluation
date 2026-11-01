@@ -1,0 +1,15 @@
+{
+  "main": {
+    "images_preserved": 6,
+    "equations_preserved": 0,
+    "table_structures": 1,
+    "yellow_highlight_runs": 57
+  },
+  "supp": {
+    "images_preserved": 27,
+    "equations_preserved": 8,
+    "table_structures": 25,
+    "yellow_highlight_runs": 1069
+  },
+  "passed": true
+}

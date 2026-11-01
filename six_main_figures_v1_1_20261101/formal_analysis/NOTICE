@@ -1,0 +1,29 @@
+AMP systematic evaluation
+Copyright 2026 the AMP systematic evaluation contributors.
+
+The original study-specific analysis, input-preparation and plotting code is
+distributed under the Apache License, Version 2.0. Processed data have a separate
+CC BY 4.0 scope described in docs/LICENSING.md.
+
+This distribution includes unchanged nature-figure quality-assurance scripts
+from Yuan1z0825/nature-skills, licensed upstream under Apache-2.0:
+https://github.com/Yuan1z0825/nature-skills
+Verified upstream commit: c1a8e7bbcf86d82a268dc4a9980d36082b31fb2f
+Files: audit_figure_collisions.py, audit_panel_alignment.py,
+audit_pdf_text.py and validate_figure.py, including duplicate copies under
+figures/qa_tools/ and historical_reference/code/.
+Their authors retain copyright. The copies and upstream licensing text are
+unchanged. Exact source paths and hashes appear in docs/THIRD_PARTY_SOURCES.json.
+
+Publication-derived experimental sequences and evidence are attributed to
+Torres et al., Nature Machine Intelligence (2026),
+https://doi.org/10.1038/s42256-026-01237-5, and Szymczak et al.,
+Nature Communications (2023), https://doi.org/10.1038/s41467-023-36994-z.
+Both articles state CC BY 4.0. Extracted records were normalized, linked to saved
+predictions and assigned the study's documented membership and activity rules;
+these are processed study inputs, not replacements for the source publications.
+
+Historical raw sequence strings, original source PDFs/workbooks, model weights
+and third-party model implementations are not redistributed by this update.
+The study's saved outputs and identity/group mappings do not relicense the
+original source collections. See docs/DATA_ACCESS.md and docs/SOURCES.md.

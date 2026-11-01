@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "main_pages": 26,
+  "supp_pages": 58,
+  "Table_S15_page": 51,
+  "reconstruction_methods_page": 58,
+  "render_method": "Native Microsoft Word read-only PDF export and canonical document renderer rasterization",
+  "visual_review": "All 26 main and 58 SI pages inspected; final changed abstract, TableS15 and reconstruction subsection inspected at page size",
+  "original_main_images_preserved": 6,
+  "original_supp_images_preserved": 27,
+  "native_equations_preserved": 8,
+  "existing_numeric_tables_preserved": true,
+  "reference_count": 22,
+  "abstract_words": 234
+}

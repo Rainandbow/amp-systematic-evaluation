@@ -1,0 +1,8 @@
+{
+  "bootstrap": 10000,
+  "base_seed": 2026110101,
+  "scope": "Figures2/3 MCC and Figure6 ApexGO discrimination/precision intervals; independent verification only",
+  "new_inference": false,
+  "archived_intervals_replaced": false,
+  "source_of_uncertainty": "Frozen label and output block resampling; no assay, chemistry, training or grouping uncertainty"
+}

@@ -1,0 +1,126 @@
+{
+  "inputs/historical/frozen_core.json": {
+    "origin": "E:\\北鲳\\AMP论文投稿资料汇总_20261017\\01_Manuscript\\论文图件数据整合_v11_20261025\\04_数据集与复现\\code\\legacy_main\\data\\frozen_core.json",
+    "sha256": "d5a9189a7f9a6bddf3c29c341b80e4c487028c86606f97ac349ae86ccafa0d33"
+  },
+  "inputs/historical/exclusive_membership_patterns.tsv": {
+    "origin": "E:\\北鲳\\AMP论文投稿资料汇总_20261017\\01_Manuscript\\论文图件数据整合_v11_20261025\\04_数据集与复现\\code\\legacy_main\\data\\exclusive_membership_patterns.tsv",
+    "sha256": "2cde2947cfb80f8614e8da330167ea06b919d5135404d490ccd23f0b7bd39d97"
+  },
+  "inputs/historical/length_mcc_intervals.tsv": {
+    "origin": "E:\\北鲳\\AMP论文投稿资料汇总_20261017\\01_Manuscript\\论文图件数据整合_v11_20261025\\04_数据集与复现\\code\\legacy_main\\data\\length_mcc_intervals.tsv",
+    "sha256": "c9180ecb7990fda9d077968016a8bd2c84fdbd97bee4c0e2f73ba186608dcced"
+  },
+  "inputs/historical/new_panel_summary.tsv": {
+    "origin": "E:\\北鲳\\AMP论文投稿资料汇总_20261017\\01_Manuscript\\论文图件数据整合_v11_20261025\\04_数据集与复现\\code\\legacy_main\\data\\new_panel_summary.tsv",
+    "sha256": "4f5bc502debe002cad092e42c2829333f3e6409fa18ca6872320d7c1f11a4f19"
+  },
+  "inputs/historical/inventory_retention.tsv": {
+    "origin": "E:\\北鲳\\AMP论文投稿资料汇总_20261017\\01_Manuscript\\论文图件数据整合_v11_20261025\\04_数据集与复现\\code\\legacy_main\\data\\inventory_retention.tsv",
+    "sha256": "5c7dfcf8dc04904579d84111d021d9043ef097aed89440c50cb59dd2728cdbe5"
+  },
+  "inputs/original_panel/peptide_evidence.tsv": {
+    "origin": "E:\\北鲳\\AMP论文投稿资料汇总_20261017\\01_Manuscript\\论文图件数据整合_v11_20261025\\04_数据集与复现\\frozen\\original_evidence\\experimental\\peptide_evidence.tsv",
+    "sha256": "d6e4a86b7915ee63fb76e499b1d6a99d033d77405f31f0bea3747851b55d28ee"
+  },
+  "inputs/original_panel/MIC_evidence.tsv": {
+    "origin": "E:\\北鲳\\AMP论文投稿资料汇总_20261017\\01_Manuscript\\论文图件数据整合_v11_20261025\\04_数据集与复现\\frozen\\original_evidence\\experimental\\MIC_evidence.tsv",
+    "sha256": "eef7c1b4a70f1bf34044a5e58f43bde668ab1b196cd8db44df983290c085c326"
+  },
+  "inputs/original_panel/study_summary.tsv": {
+    "origin": "E:\\北鲳\\AMP论文投稿资料汇总_20261017\\01_Manuscript\\论文图件数据整合_v11_20261025\\04_数据集与复现\\frozen\\original_evidence\\experimental\\study_summary.tsv",
+    "sha256": "71c077b98d59c4fa2ec8d8474498da8d9bc87aed99726d783470f8895fe3fa8e"
+  },
+  "inputs/original_panel/evidence_prediction_joined.tsv": {
+    "origin": "E:\\北鲳\\AMP论文投稿资料汇总_20261017\\01_Manuscript\\论文图件数据整合_v11_20261025\\04_数据集与复现\\code\\legacy_supp\\data\\evidence_prediction_joined.tsv",
+    "sha256": "96dfac941ae5167d62e2cd5586e44209ddcecc0be8025b7664d374d913ac2c98"
+  },
+  "inputs/original_panel/positive_recall_metrics.tsv": {
+    "origin": "E:\\北鲳\\AMP论文投稿资料汇总_20261017\\01_Manuscript\\论文图件数据整合_v11_20261025\\04_数据集与复现\\code\\legacy_supp\\data\\positive_recall_metrics.tsv",
+    "sha256": "f2158e6b80fc01986fe77000cd52b5f3c725915f6dc57e2c3b6e15b487b1b7bd"
+  },
+  "inputs/fig6/task_diagnostics.tsv": {
+    "origin": "E:\\北鲳\\AMP论文投稿资料汇总_20261017\\01_Manuscript\\论文图件数据整合_v11_20261025\\04_数据集与复现\\frozen\\membership_analysis\\active_design_151\\task_diagnostics.tsv",
+    "sha256": "20a0dc0807aa530ef2bc3061856ef2a32135212011512c627c4acada3ce3fda1"
+  },
+  "inputs/fig6/diagnostic_intervals.tsv": {
+    "origin": "E:\\北鲳\\AMP论文投稿资料汇总_20261017\\01_Manuscript\\论文图件数据整合_v11_20261025\\04_数据集与复现\\frozen\\membership_analysis\\active_design_151\\diagnostic_intervals.tsv",
+    "sha256": "c0d75b88add9627532549d5c4037df4ebfd1790ff6aefc8ec650687811a9ed32"
+  },
+  "inputs/fig6/task_budget.tsv": {
+    "origin": "E:\\北鲳\\AMP论文投稿资料汇总_20261017\\01_Manuscript\\论文图件数据整合_v11_20261025\\04_数据集与复现\\frozen\\task_threshold\\06_固定预算结果.tsv",
+    "sha256": "d7d86dd8c8e1593b283858b88c832061fa9c15845209e1db74f4066dccd34cf8"
+  },
+  "inputs/fig6/task_intervals.tsv": {
+    "origin": "E:\\北鲳\\AMP论文投稿资料汇总_20261017\\01_Manuscript\\论文图件数据整合_v11_20261025\\04_数据集与复现\\frozen\\task_threshold\\07_探索性分组Bootstrap区间.tsv",
+    "sha256": "5b8c6b9823052a9e34be9191cc16e899978ecf0e8b9e63432a98ec045ac21881"
+  },
+  "reference/legacy_main.py": {
+    "origin": "E:\\北鲳\\AMP论文投稿资料汇总_20261017\\01_Manuscript\\论文图件数据整合_v11_20261025\\04_数据集与复现\\code\\legacy_main\\generate_six_figures.py",
+    "sha256": "129b2249599d44d06b9e348568901fd6fbb80d1b78f1727ff08158e78289841d"
+  },
+  "reference/legacy_v9.py": {
+    "origin": "E:\\北鲳\\AMP论文投稿资料汇总_20261017\\01_Manuscript\\论文图件数据整合_v11_20261025\\04_数据集与复现\\code\\plot_v9.py",
+    "sha256": "7e5686bfd2a88a239d3de48f74691d295d98ecfab2b3e09a50f84cd6b80a7ead"
+  },
+  "reference/formal_plot.py": {
+    "origin": "E:\\北鲳\\AMP论文投稿资料汇总_20261017\\01_Manuscript\\论文\\_本次同步核验_20261101\\figure_workflow\\run.py",
+    "sha256": "cbf6a07cd8f7418f870d494e70904c37899a29eb01130380d8b8b1e74c2d1e36"
+  },
+  "reference/paired_plot.py": {
+    "origin": "E:\\北鲳\\AMP论文投稿资料汇总_20261017\\01_Manuscript\\论文\\_第二步_最短序列配对命中差_20261101_143607\\plot_paired.py",
+    "sha256": "96f78d00a5167586d620d4a822bda5c1e2b79901ddb4b1912bc53c1b9bcae6ee"
+  },
+  "reference/extract_paired.py": {
+    "origin": "E:\\北鲳\\AMP论文投稿资料汇总_20261017\\01_Manuscript\\论文\\_第二步_最短序列配对命中差_20261101_143607\\extract_paired.py",
+    "sha256": "79aaa17189b41193cac0ec7ae1a87c904c4864bc361709695b3723234c478c58"
+  },
+  "figure4/tables/Table_S12_all_48_paired_hit_differences.tsv": {
+    "origin": "E:\\北鲳\\AMP论文投稿资料汇总_20261017\\01_Manuscript\\论文\\_第二步_最短序列配对命中差_20261101_143607\\tables\\Table_S12_all_48_paired_hit_differences.tsv",
+    "sha256": "587d609e595cf5716321c1a9790b5dfc716e273f9866d2baac61f18856ae2829"
+  },
+  "figure4/inputs/baseline_and_model_points.tsv": {
+    "origin": "E:\\北鲳\\AMP论文投稿资料汇总_20261017\\01_Manuscript\\论文\\_第二步_最短序列配对命中差_20261101_143607\\inputs\\baseline_and_model_points.tsv",
+    "sha256": "4a6a2ac9c4b2b0ca92665bc0645e4923b347eee41a4319ec42ea4450be2dfd2c"
+  },
+  "figure4/inputs/baseline_and_model_intervals.tsv": {
+    "origin": "E:\\北鲳\\AMP论文投稿资料汇总_20261017\\01_Manuscript\\论文\\_第二步_最短序列配对命中差_20261101_143607\\inputs\\baseline_and_model_intervals.tsv",
+    "sha256": "b9352e973760563a2e1da2d83e77ae5e8b299033745d8cc4f15c219fe2371647"
+  },
+  "figure4/inputs/paired_model_minus_baseline.tsv": {
+    "origin": "E:\\北鲳\\AMP论文投稿资料汇总_20261017\\01_Manuscript\\论文\\_第二步_最短序列配对命中差_20261101_143607\\inputs\\paired_model_minus_baseline.tsv",
+    "sha256": "e0fbbb9922e39563b68726691d7acc702608142f51b370a6fa1b780531a55536"
+  },
+  "tools/audit_panel_alignment.py": {
+    "origin": "C:\\Users\\宇\\.agents\\skills\\nature-figure\\scripts\\audit_panel_alignment.py",
+    "sha256": "4ed2d6afe9db45aaf6ca26aeb264cfc251ae92b49ee9fbf117d926e1956acf56"
+  },
+  "figure4/tools/audit_panel_alignment.py": {
+    "origin": "C:\\Users\\宇\\.agents\\skills\\nature-figure\\scripts\\audit_panel_alignment.py",
+    "sha256": "4ed2d6afe9db45aaf6ca26aeb264cfc251ae92b49ee9fbf117d926e1956acf56"
+  },
+  "tools/audit_pdf_text.py": {
+    "origin": "C:\\Users\\宇\\.agents\\skills\\nature-figure\\scripts\\audit_pdf_text.py",
+    "sha256": "0b3d3e30ce9ec7191b8ba6dd053226487ab41594297005afcd127acda3b08281"
+  },
+  "figure4/tools/audit_pdf_text.py": {
+    "origin": "C:\\Users\\宇\\.agents\\skills\\nature-figure\\scripts\\audit_pdf_text.py",
+    "sha256": "0b3d3e30ce9ec7191b8ba6dd053226487ab41594297005afcd127acda3b08281"
+  },
+  "tools/audit_figure_collisions.py": {
+    "origin": "C:\\Users\\宇\\.agents\\skills\\nature-figure\\scripts\\audit_figure_collisions.py",
+    "sha256": "4bd020238a9f207c8a67c61d7209cef5959f2995a1d9cd95911d6fa93de7aa36"
+  },
+  "figure4/tools/audit_figure_collisions.py": {
+    "origin": "C:\\Users\\宇\\.agents\\skills\\nature-figure\\scripts\\audit_figure_collisions.py",
+    "sha256": "4bd020238a9f207c8a67c61d7209cef5959f2995a1d9cd95911d6fa93de7aa36"
+  },
+  "tools/validate_figure.py": {
+    "origin": "C:\\Users\\宇\\.agents\\skills\\nature-figure\\scripts\\validate_figure.py",
+    "sha256": "09694ac0ac4036d4b759e7c9aeb3d4f7a9b525212db50085d2ea0d88b0e49d76"
+  },
+  "figure4/tools/validate_figure.py": {
+    "origin": "C:\\Users\\宇\\.agents\\skills\\nature-figure\\scripts\\validate_figure.py",
+    "sha256": "09694ac0ac4036d4b759e7c9aeb3d4f7a9b525212db50085d2ea0d88b0e49d76"
+  }
+}

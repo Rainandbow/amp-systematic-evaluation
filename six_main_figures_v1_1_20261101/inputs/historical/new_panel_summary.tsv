@@ -1,0 +1,5 @@
+cohort	tested_records	generated_candidates	template_controls	generated_positive	generated_assay_negative	unresolved	threshold	unit
+ApexGO_template_based	110	100	10	86	14	0	64	uM
+ApexGO_template_free	20	20	0	20	0	0	64	uM
+HydrAMP_auxiliary_preselected	28	24	4	13	11	0	32	ug/mL
+HydrAMP_no_auxiliary_preselection	11	9	2	2	7	0	32	ug/mL

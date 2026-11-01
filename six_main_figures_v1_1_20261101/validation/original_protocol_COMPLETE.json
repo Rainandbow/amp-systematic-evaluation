@@ -1,0 +1,25 @@
+{
+  "action": "all",
+  "smoke_only": false,
+  "bootstrap": 10000,
+  "repeats": 20,
+  "results": {
+    "baseline": {
+      "points": 96,
+      "paired_contrasts": 1440,
+      "family_rows": 864,
+      "smoke_only": false
+    },
+    "honest": {
+      "selected_rules": 1800,
+      "evaluation_rows": 5400,
+      "repeats": 20,
+      "smoke_only": false
+    }
+  },
+  "elapsed_seconds": 215.375,
+  "new_model_inference": false,
+  "new_wet_lab": false,
+  "protocol_sha256": "b0ab1ee774b46f53f968d69bcd5b4e9398bb6441a8e5afba7cee18d41bf65abc",
+  "input_manifest_sha256": "7243ed9f6fc0c19b3b2cc881b2eb5b9519326a0ef4cc1091e1237d4845d6caa3"
+}

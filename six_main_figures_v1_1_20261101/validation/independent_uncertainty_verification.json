@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "bootstrap": 10000,
+  "base_seed": 2026110101,
+  "MCC_points_verified": 180,
+  "finite_historical_endpoint_comparisons": 256,
+  "largest_absolute_endpoint_difference": 0.010931852996214853,
+  "archived_intervals_replaced": false,
+  "point_estimates_identical": true,
+  "note": "Independent fixed-seed bootstrap verification; Monte Carlo endpoints are not expected to match byte-for-byte."
+}

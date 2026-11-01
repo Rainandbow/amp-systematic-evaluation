@@ -1,0 +1,4 @@
+﻿study	candidate_n	tested_n	failed_synthesis_n	any_numeric_initial_MIC_n	numeric_MIC_le64_n	min_length	max_length	outside_historical_scope_n	training_independence	chemistry
+APEX_selected	69	69	0	41	41	10	30	0	NOT_CHECKED	not_fully_resolved
+APEX_scoring_selected	49	49	0	12	12	8	12	34	NOT_CHECKED	not_fully_resolved
+AMPGen	40	38	2	31	30	15	35	0	NOT_CHECKED	not_fully_resolved

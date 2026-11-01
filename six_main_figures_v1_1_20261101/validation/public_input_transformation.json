@@ -1,0 +1,26 @@
+{
+  "original_package_sha256": "3d63abba6236dd9aa00376e6320784107aa615a7958510b2a6d30af2a3e85abf",
+  "old_step3_historical_input_sha256": "f3b4f9702686bb1fbaa25c9e3db1734411e7aa9bfdeac437d8a8309fa9655396",
+  "new_hash_based_input_sha256": "74dd5216242b37962042c24070d2fa8c90d002fd3152b6bb492a904d7858cffd",
+  "records_verified": 29104,
+  "sequence_hashes_verified": 29104,
+  "other_cells_and_row_order_unchanged": true,
+  "byte_identical_rebuilt_scientific_tables": {
+    "tables\\all_deletion_method_points.tsv": "475fa4c306bfa30d5e2413868bcc0c1153598d76209efb11a8bdf7c0218159dd",
+    "tables\\all_model_minus_six_controls_deletion_contrasts.tsv.gz": "5934eba3f4b19d6070a7e4955a884623a5ed3d8ab7c9c98ecef3939ea7710856",
+    "tables\\deletion_sets_and_members.tsv": "7f28fe5caf037ff2cab168afee043c6e8709ffb23b070c11ce7d62a55e34ec8e",
+    "tables\\Fig_S27_primary_deletion_contrasts.tsv": "a753a825de44c084862f83d045205bfa15bdaa572b9dfc8cef39c4c9f3f1dce1",
+    "tables\\full_data_points_reconstructed.tsv": "7aaae06a6080a779b9de6c9e3361afd47868711a7d06f0c9d59dcbe80c53c202",
+    "tables\\full_selection_block_contributions.tsv": "437782b5062490cec3bbd532e11ac1993d2fe47052d0c281c50cbb73b2f05766",
+    "tables\\historical_full_confusion_metrics.tsv": "d43ff460abbed13dd7f027edae367c739decf02f3368bb1a6485c4b62d18798d",
+    "tables\\historical_global_group_roster.tsv.gz": "0108df3a88cc9aa7eb6ab11daff6031bcbde99ee1b312011d189d4254ed910b7",
+    "tables\\historical_single_block_deletions.tsv.gz": "82c9f6e41a843def89d145786848bb0d0d9855196a79992c3d6dea7c43a35a8a",
+    "tables\\historical_single_block_deletion_summary.tsv": "21976599b27491cf80d8645749d66ab218a2523982d0c980918bfe4d56a095c6",
+    "tables\\Table_S13_experimental_family_block_roster.tsv": "513c038005ee8f229c94cd115abd9726a23232c024922ad0b004986f545a1e17",
+    "tables\\Table_S13_experimental_group_composition.tsv": "29ec6a916222596e1d50e00db2176e1795589dceb5b470f4151147b73a6f2896",
+    "tables\\Table_S13_historical_group_composition.tsv": "60080e505ab8d4fe7a74c922032822b0f227e24ad0699277382a518479c63576",
+    "tables\\Table_S14_named_comparator_deletion_summary.tsv": "6bf96abef3707b24948d290068736a8675311dd7b89e52de6d9d8f207e80bc9b"
+  },
+  "independent_numerical_verification": true,
+  "original_local_archive_modified": false
+}

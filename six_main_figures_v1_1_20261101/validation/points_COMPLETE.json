@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "historical_records": 29104,
+  "unique_sequences": 28481,
+  "Figure2_points": 36,
+  "Figure3_planned_points": 144,
+  "Figure5_rules": 1800,
+  "Figure5_pairs": 201,
+  "Figure6_original_positive_denominator": 84,
+  "new_inference": false,
+  "bootstrap_rerun": false,
+  "historical_intervals": "Archived interval endpoints reused with hashes; this point audit does not rederive their sampling distributions."
+}

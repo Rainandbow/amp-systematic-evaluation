@@ -1,0 +1,315 @@
+{
+  "analysis/run.py": {
+    "origin": "amp_baseline_honest_v1_ascii_20261026.zip/run.py",
+    "sha256": "bfea4cd86d20731ea53affeebf904530efd70ea31591764cad1faf4d218adc4a",
+    "analytical_code_unchanged": true
+  },
+  "analysis/requirements.txt": {
+    "origin": "amp_baseline_honest_v1_ascii_20261026.zip/requirements.txt",
+    "sha256": "b278f1339f69781eefd2f8fc58f11e4c07a5fbd9134324562c8c0f65599b34c5",
+    "analytical_code_unchanged": true
+  },
+  "analysis/protocol_v1.json": {
+    "origin": "amp_baseline_honest_v1_ascii_20261026.zip/protocol_v1.json",
+    "sha256": "b0ab1ee774b46f53f968d69bcd5b4e9398bb6441a8e5afba7cee18d41bf65abc",
+    "analytical_code_unchanged": true
+  },
+  "analysis/code/baseline_family.py": {
+    "origin": "amp_baseline_honest_v1_ascii_20261026.zip/code/baseline_family.py",
+    "sha256": "b14d8a975077d7fa619df59bb5d8892a379bc26e105561a26668e1ef9e0cdaa8",
+    "analytical_code_unchanged": true
+  },
+  "analysis/code/common.py": {
+    "origin": "amp_baseline_honest_v1_ascii_20261026.zip/code/common.py",
+    "sha256": "dee72c7f6028bcbdc623ffe9473ddbc476c0f909efea7acd9415ebc10e761faf",
+    "analytical_code_unchanged": false,
+    "statistical_algorithms_unchanged": true,
+    "distribution_sha256": "4a9c764c0a6993d0d0495adf6d3745f4541d52825bd03578a4a56c07541ce738",
+    "modification": "Historical input reader additionally accepts sequence_sha256 in place of raw sequence letters; all statistical functions unchanged. The sha256 field preserves the original source fingerprint."
+  },
+  "analysis/code/honest_transfer.py": {
+    "origin": "amp_baseline_honest_v1_ascii_20261026.zip/code/honest_transfer.py",
+    "sha256": "ae339e048f854065fc11d747546727a3fc1a2c934e950cf7c32943b320768db3",
+    "analytical_code_unchanged": true
+  },
+  "analysis/code/selftest.py": {
+    "origin": "amp_baseline_honest_v1_ascii_20261026.zip/code/selftest.py",
+    "sha256": "b4352a1f53d89e053ea3798baac7516e0c2d39dac892aaa0db0b9c8d5308573c",
+    "analytical_code_unchanged": true
+  },
+  "figures/requirements.txt": {
+    "origin": "amp_revision_v14_20261026_code.zip/requirements.txt",
+    "sha256": "d1c415675b6ddab455fc9a7d43b2d382237eb55fd668961b0ac0c971d5b1da58",
+    "analytical_code_unchanged": true
+  },
+  "figures/run.py": {
+    "origin": "amp_revision_v14_20261026_code.zip/run.py",
+    "sha256": "b4ff0df3ace3b535347ee2154a525b79ed8129a02d2bd1522368d5fa1349b248",
+    "analytical_code_unchanged": true
+  },
+  "figures/inputs/COMPLETE.json": {
+    "origin": "amp_revision_v14_20261026_code.zip/inputs/COMPLETE.json",
+    "sha256": "0c6c9499259f2e2c1eb3b50a35575468da7086eafec73007c2188f323cbeaf72",
+    "analytical_code_unchanged": true
+  },
+  "figures/inputs/previous_independent_audit.json": {
+    "origin": "amp_revision_v14_20261026_code.zip/inputs/previous_independent_audit.json",
+    "sha256": "d3f63a10bd32fa8ad0f4b39f302939f084dcbb25a38acdb3b29b45089bf4b378",
+    "analytical_code_unchanged": true
+  },
+  "figures/inputs/protocol_v1.json": {
+    "origin": "amp_revision_v14_20261026_code.zip/inputs/protocol_v1.json",
+    "sha256": "b0ab1ee774b46f53f968d69bcd5b4e9398bb6441a8e5afba7cee18d41bf65abc",
+    "analytical_code_unchanged": true
+  },
+  "figures/qa_tools/audit_figure_collisions.py": {
+    "origin": "amp_revision_v14_20261026_code.zip/qa_tools/audit_figure_collisions.py",
+    "sha256": "4bd020238a9f207c8a67c61d7209cef5959f2995a1d9cd95911d6fa93de7aa36",
+    "analytical_code_unchanged": true
+  },
+  "figures/qa_tools/audit_panel_alignment.py": {
+    "origin": "amp_revision_v14_20261026_code.zip/qa_tools/audit_panel_alignment.py",
+    "sha256": "4ed2d6afe9db45aaf6ca26aeb264cfc251ae92b49ee9fbf117d926e1956acf56",
+    "analytical_code_unchanged": true
+  },
+  "figures/qa_tools/audit_pdf_text.py": {
+    "origin": "amp_revision_v14_20261026_code.zip/qa_tools/audit_pdf_text.py",
+    "sha256": "0b3d3e30ce9ec7191b8ba6dd053226487ab41594297005afcd127acda3b08281",
+    "analytical_code_unchanged": true
+  },
+  "figures/qa_tools/validate_figure.py": {
+    "origin": "amp_revision_v14_20261026_code.zip/qa_tools/validate_figure.py",
+    "sha256": "09694ac0ac4036d4b759e7c9aeb3d4f7a9b525212db50085d2ea0d88b0e49d76",
+    "analytical_code_unchanged": true
+  },
+  "figures/inputs/baseline_family/baseline_and_model_intervals.tsv": {
+    "origin": "amp_revision_v14_20261026_code.zip/inputs/baseline_family/baseline_and_model_intervals.tsv",
+    "sha256": "b9352e973760563a2e1da2d83e77ae5e8b299033745d8cc4f15c219fe2371647",
+    "analytical_code_unchanged": true
+  },
+  "figures/inputs/baseline_family/baseline_and_model_points.tsv": {
+    "origin": "amp_revision_v14_20261026_code.zip/inputs/baseline_family/baseline_and_model_points.tsv",
+    "sha256": "4a6a2ac9c4b2b0ca92665bc0645e4923b347eee41a4319ec42ea4450be2dfd2c",
+    "analytical_code_unchanged": true
+  },
+  "figures/inputs/baseline_family/endpoint_and_family_availability.tsv": {
+    "origin": "amp_revision_v14_20261026_code.zip/inputs/baseline_family/endpoint_and_family_availability.tsv",
+    "sha256": "eec6da2e4015a9e3d5fe042ce9dac5d3a801306defa9ade68442d8dfc3dd2705",
+    "analytical_code_unchanged": true
+  },
+  "figures/inputs/baseline_family/original_budget_reproduction.tsv": {
+    "origin": "amp_revision_v14_20261026_code.zip/inputs/baseline_family/original_budget_reproduction.tsv",
+    "sha256": "2926b99a25b2b451ed2d947581407a3fdf5690c953012ca6dded0c895a30a123",
+    "analytical_code_unchanged": true
+  },
+  "figures/inputs/baseline_family/paired_model_minus_baseline.tsv": {
+    "origin": "amp_revision_v14_20261026_code.zip/inputs/baseline_family/paired_model_minus_baseline.tsv",
+    "sha256": "e0fbbb9922e39563b68726691d7acc702608142f51b370a6fa1b780531a55536",
+    "analytical_code_unchanged": true
+  },
+  "figures/inputs/baseline_family/run_settings.json": {
+    "origin": "amp_revision_v14_20261026_code.zip/inputs/baseline_family/run_settings.json",
+    "sha256": "5085b24f53bc0f49a0aae25eeb87dbf11e36e072b5f6cd622773254145475e98",
+    "analytical_code_unchanged": true
+  },
+  "figures/inputs/baseline_family/within_family_details.tsv": {
+    "origin": "amp_revision_v14_20261026_code.zip/inputs/baseline_family/within_family_details.tsv",
+    "sha256": "13683bf76cdbff024a339c81a2cfcc74db62120ef0717c9859640df707347ec2",
+    "analytical_code_unchanged": true
+  },
+  "figures/inputs/honest_transfer/evaluation_by_source.tsv": {
+    "origin": "amp_revision_v14_20261026_code.zip/inputs/honest_transfer/evaluation_by_source.tsv",
+    "sha256": "5614bc11554868c67517d830cf20dfc3c6168963d6d3e6b58b8d746fdc4c9f64",
+    "analytical_code_unchanged": true
+  },
+  "figures/inputs/honest_transfer/evaluation_points.tsv": {
+    "origin": "amp_revision_v14_20261026_code.zip/inputs/honest_transfer/evaluation_points.tsv",
+    "sha256": "21d74c98ce0b08f62d8d146c26553abd637e1afe83bbfaa67038f07a7fb8acc1",
+    "analytical_code_unchanged": true
+  },
+  "figures/inputs/honest_transfer/group_and_exact_overlap_audit.tsv": {
+    "origin": "amp_revision_v14_20261026_code.zip/inputs/honest_transfer/group_and_exact_overlap_audit.tsv",
+    "sha256": "4f30959cef5a67956b4c785d18162f25ad12bc48100aabea64aeccedf4a0b0b3",
+    "analytical_code_unchanged": true
+  },
+  "figures/inputs/honest_transfer/original_policy_reproduction.tsv": {
+    "origin": "amp_revision_v14_20261026_code.zip/inputs/honest_transfer/original_policy_reproduction.tsv",
+    "sha256": "7e5ba573eb67e96c939203821b6be7e01014d70f06ca3127f7afee0d7fc5dc9e",
+    "analytical_code_unchanged": true
+  },
+  "figures/inputs/honest_transfer/paired_strategy_differences.tsv": {
+    "origin": "amp_revision_v14_20261026_code.zip/inputs/honest_transfer/paired_strategy_differences.tsv",
+    "sha256": "d9b53bedf54be932f84001c8389659db62cd97a85def80a9d78d6ec39265d0be",
+    "analytical_code_unchanged": true
+  },
+  "figures/inputs/honest_transfer/repeated_split_sensitivity_NOT_CI.tsv": {
+    "origin": "amp_revision_v14_20261026_code.zip/inputs/honest_transfer/repeated_split_sensitivity_NOT_CI.tsv",
+    "sha256": "be68c0b42d8a753c9d22c08d1cb486bdbbd41fcd8aca32ea77ddeb52a55b87f7",
+    "analytical_code_unchanged": true
+  },
+  "figures/inputs/honest_transfer/run_settings.json": {
+    "origin": "amp_revision_v14_20261026_code.zip/inputs/honest_transfer/run_settings.json",
+    "sha256": "b26f345991fc617bf861da67ccb771576e8135693f1b06b04d3f50c1be0fdc07",
+    "analytical_code_unchanged": true
+  },
+  "figures/inputs/honest_transfer/score_ineligible.tsv": {
+    "origin": "amp_revision_v14_20261026_code.zip/inputs/honest_transfer/score_ineligible.tsv",
+    "sha256": "386c861183352f0c9f4919a239f5fdfe205a8d005c8124c8a36c7bc2be8f1345",
+    "analytical_code_unchanged": true
+  },
+  "figures/inputs/honest_transfer/selected_rules.tsv": {
+    "origin": "amp_revision_v14_20261026_code.zip/inputs/honest_transfer/selected_rules.tsv",
+    "sha256": "c05770e8f32975a77244767ef83497cce61be3d6f02445ccd71c3798c716827a",
+    "analytical_code_unchanged": true
+  },
+  "historical_reference/code/analyses/analyze_threshold_task.py": {
+    "origin": "v11_reproducibility/code/analyses/analyze_threshold_task.py",
+    "sha256": "5352211af9263d56cdc973d2126a978661eb8cb98bd568263cdd0a1609009e04",
+    "analytical_code_unchanged": true
+  },
+  "historical_reference/code/analyses/decompose_sources.py": {
+    "origin": "v11_reproducibility/code/analyses/decompose_sources.py",
+    "sha256": "a1d33d81a7c0cd663b94503777afbca85ea71646f6c0a2b8b2d7bdf774e7f2e0",
+    "analytical_code_unchanged": true
+  },
+  "historical_reference/code/analyses/original_budget_functions.py": {
+    "origin": "v11_reproducibility/code/analyses/original_budget_functions.py",
+    "sha256": "fc2e1583c487de6b597f21cce25eeefa8801f84e4f208c64f6d73057f7f6aa3d",
+    "analytical_code_unchanged": true
+  },
+  "historical_reference/code/analyses/original_budget_task_v1.py": {
+    "origin": "v11_reproducibility/code/analyses/original_budget_task_v1.py",
+    "sha256": "fc2e1583c487de6b597f21cce25eeefa8801f84e4f208c64f6d73057f7f6aa3d",
+    "analytical_code_unchanged": true
+  },
+  "historical_reference/code/analyses/original_selective.py": {
+    "origin": "v11_reproducibility/code/analyses/original_selective.py",
+    "sha256": "d7e43ac53b7606fbecfd3f29fdc2ac9d5a0bab25d7530720bc4d108ba5e1c6c6",
+    "analytical_code_unchanged": true
+  },
+  "historical_reference/code/analyses/original_transfer_exact_v3.py": {
+    "origin": "v11_reproducibility/code/analyses/original_transfer_exact_v3.py",
+    "sha256": "3cd4006671d9277e53e5bf1d1a4a82d71819b7bacebf17f075e9438563556048",
+    "analytical_code_unchanged": true
+  },
+  "historical_reference/code/analyses/run_reanalysis.py": {
+    "origin": "v11_reproducibility/code/analyses/run_reanalysis.py",
+    "sha256": "9e1cb74ef7248ca5bfa79cdc10bbf0366920cf2a5581178255e2e6e8930466c1",
+    "analytical_code_unchanged": true
+  },
+  "historical_reference/code/audit_figure_collisions.py": {
+    "origin": "v11_reproducibility/code/audit_figure_collisions.py",
+    "sha256": "4bd020238a9f207c8a67c61d7209cef5959f2995a1d9cd95911d6fa93de7aa36",
+    "analytical_code_unchanged": true
+  },
+  "historical_reference/code/audit_panel_alignment.py": {
+    "origin": "v11_reproducibility/code/audit_panel_alignment.py",
+    "sha256": "4ed2d6afe9db45aaf6ca26aeb264cfc251ae92b49ee9fbf117d926e1956acf56",
+    "analytical_code_unchanged": true
+  },
+  "historical_reference/code/audit_pdf_text.py": {
+    "origin": "v11_reproducibility/code/audit_pdf_text.py",
+    "sha256": "0b3d3e30ce9ec7191b8ba6dd053226487ab41594297005afcd127acda3b08281",
+    "analytical_code_unchanged": true
+  },
+  "historical_reference/code/legacy_main/code/audit_figure_collisions.py": {
+    "origin": "v11_reproducibility/code/legacy_main/code/audit_figure_collisions.py",
+    "sha256": "4bd020238a9f207c8a67c61d7209cef5959f2995a1d9cd95911d6fa93de7aa36",
+    "analytical_code_unchanged": true
+  },
+  "historical_reference/code/legacy_main/code/audit_panel_alignment.py": {
+    "origin": "v11_reproducibility/code/legacy_main/code/audit_panel_alignment.py",
+    "sha256": "4ed2d6afe9db45aaf6ca26aeb264cfc251ae92b49ee9fbf117d926e1956acf56",
+    "analytical_code_unchanged": true
+  },
+  "historical_reference/code/legacy_main/code/audit_pdf_text.py": {
+    "origin": "v11_reproducibility/code/legacy_main/code/audit_pdf_text.py",
+    "sha256": "0b3d3e30ce9ec7191b8ba6dd053226487ab41594297005afcd127acda3b08281",
+    "analytical_code_unchanged": true
+  },
+  "historical_reference/code/legacy_main/code/validate_figure.py": {
+    "origin": "v11_reproducibility/code/legacy_main/code/validate_figure.py",
+    "sha256": "09694ac0ac4036d4b759e7c9aeb3d4f7a9b525212db50085d2ea0d88b0e49d76",
+    "analytical_code_unchanged": true
+  },
+  "historical_reference/code/legacy_main/generate_six_figures.py": {
+    "origin": "v11_reproducibility/code/legacy_main/generate_six_figures.py",
+    "sha256": "129b2249599d44d06b9e348568901fd6fbb80d1b78f1727ff08158e78289841d",
+    "analytical_code_unchanged": true
+  },
+  "historical_reference/code/legacy_supp/code/audit_figure_collisions.py": {
+    "origin": "v11_reproducibility/code/legacy_supp/code/audit_figure_collisions.py",
+    "sha256": "4bd020238a9f207c8a67c61d7209cef5959f2995a1d9cd95911d6fa93de7aa36",
+    "analytical_code_unchanged": true
+  },
+  "historical_reference/code/legacy_supp/code/audit_panel_alignment.py": {
+    "origin": "v11_reproducibility/code/legacy_supp/code/audit_panel_alignment.py",
+    "sha256": "4ed2d6afe9db45aaf6ca26aeb264cfc251ae92b49ee9fbf117d926e1956acf56",
+    "analytical_code_unchanged": true
+  },
+  "historical_reference/code/legacy_supp/code/audit_pdf_text.py": {
+    "origin": "v11_reproducibility/code/legacy_supp/code/audit_pdf_text.py",
+    "sha256": "0b3d3e30ce9ec7191b8ba6dd053226487ab41594297005afcd127acda3b08281",
+    "analytical_code_unchanged": true
+  },
+  "historical_reference/code/legacy_supp/code/draw_legacy.py": {
+    "origin": "v11_reproducibility/code/legacy_supp/code/draw_legacy.py",
+    "sha256": "ae144a2f3c1df9e6f52c221e594783bbb4bc116d266dc52adec47725810856d1",
+    "analytical_code_unchanged": true
+  },
+  "historical_reference/code/legacy_supp/code/supplement_helpers.py": {
+    "origin": "v11_reproducibility/code/legacy_supp/code/supplement_helpers.py",
+    "sha256": "565e76d6967b6a01edb63a57716e966de8f08af942071c75bd31d46a06fa5d3d",
+    "analytical_code_unchanged": true
+  },
+  "historical_reference/code/legacy_supp/code/validate_figure.py": {
+    "origin": "v11_reproducibility/code/legacy_supp/code/validate_figure.py",
+    "sha256": "09694ac0ac4036d4b759e7c9aeb3d4f7a9b525212db50085d2ea0d88b0e49d76",
+    "analytical_code_unchanged": true
+  },
+  "historical_reference/code/legacy_supp/generate_supplement_v2.py": {
+    "origin": "v11_reproducibility/code/legacy_supp/generate_supplement_v2.py",
+    "sha256": "ca546f8f3742f1017d66b5f0d4a655b880e8418a0c5b4704ea56b450472d51fa",
+    "analytical_code_unchanged": true
+  },
+  "historical_reference/code/plot_source_fig5.py": {
+    "origin": "v11_reproducibility/code/plot_source_fig5.py",
+    "sha256": "b65d935a26d89205511a9a5037b2cf6ebca949d91ebdca1146fee71b930aff80",
+    "analytical_code_unchanged": true
+  },
+  "historical_reference/code/plot_v9.py": {
+    "origin": "v11_reproducibility/code/plot_v9.py",
+    "sha256": "7e5686bfd2a88a239d3de48f74691d295d98ecfab2b3e09a50f84cd6b80a7ead",
+    "analytical_code_unchanged": true
+  },
+  "historical_reference/code/validate_figure.py": {
+    "origin": "v11_reproducibility/code/validate_figure.py",
+    "sha256": "09694ac0ac4036d4b759e7c9aeb3d4f7a9b525212db50085d2ea0d88b0e49d76",
+    "analytical_code_unchanged": true
+  },
+  "historical_reference/reproduce.py": {
+    "origin": "v11_reproducibility/reproduce.py",
+    "sha256": "f20189021a526016252a5b1465c0da1a18ab400017624f8d5950955bb539d1e4",
+    "analytical_code_unchanged": true
+  },
+  "historical_reference/requirements.txt": {
+    "origin": "v11_reproducibility/requirements.txt",
+    "sha256": "56cee5595db9d99e10a7263b7d009ad5ae53619eeaa59f8e6a93fdc783079499",
+    "analytical_code_unchanged": true
+  },
+  "historical_reference/input_manifest.json": {
+    "origin": "v11_reproducibility/input_manifest.json",
+    "sha256": "29f03268a68d934065533d8c6abf2b3fde6f01931a52da45d9640af5f0f7f7d3",
+    "analytical_code_unchanged": true
+  },
+  "historical_reference/DATA_DICTIONARY.md": {
+    "origin": "v11_reproducibility/DATA_DICTIONARY.md",
+    "sha256": "d7fe4354444eee127d0cca407b0ea13b6a28ff619d989d493a633f4d4e3df3db",
+    "analytical_code_unchanged": true
+  },
+  "historical_reference/THIRD_PARTY_NOTICE.md": {
+    "origin": "v11_reproducibility/THIRD_PARTY_NOTICE.md",
+    "sha256": "e7e86c5758f74e8333a29ee0c472df1fe8c9051191af5b783937ede9415291b4",
+    "analytical_code_unchanged": true
+  }
+}

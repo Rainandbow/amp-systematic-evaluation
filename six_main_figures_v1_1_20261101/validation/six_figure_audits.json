@@ -1,0 +1,62 @@
+[
+  {
+    "figure": "Fig01_design_and_data",
+    "audit": "audit_pdf_text.py",
+    "exit_code": 0
+  },
+  {
+    "figure": "Fig01_design_and_data",
+    "audit": "audit_figure_collisions.py",
+    "exit_code": 0
+  },
+  {
+    "figure": "Fig02_common_sequence_performance",
+    "audit": "audit_pdf_text.py",
+    "exit_code": 0
+  },
+  {
+    "figure": "Fig02_common_sequence_performance",
+    "audit": "audit_figure_collisions.py",
+    "exit_code": 0
+  },
+  {
+    "figure": "Fig03_length_stratified_performance",
+    "audit": "audit_pdf_text.py",
+    "exit_code": 0
+  },
+  {
+    "figure": "Fig03_length_stratified_performance",
+    "audit": "audit_figure_collisions.py",
+    "exit_code": 0
+  },
+  {
+    "figure": "Fig04_budget_paired_and_family",
+    "audit": "audit_pdf_text.py",
+    "exit_code": 0
+  },
+  {
+    "figure": "Fig04_budget_paired_and_family",
+    "audit": "audit_figure_collisions.py",
+    "exit_code": 0
+  },
+  {
+    "figure": "Fig05_honest_source_constraints",
+    "audit": "audit_pdf_text.py",
+    "exit_code": 0
+  },
+  {
+    "figure": "Fig05_honest_source_constraints",
+    "audit": "audit_figure_collisions.py",
+    "exit_code": 0
+  },
+  {
+    "figure": "Fig06_coverage_activity_and_task",
+    "audit": "audit_pdf_text.py",
+    "exit_code": 0
+  },
+  {
+    "figure": "Fig06_coverage_activity_and_task",
+    "audit": "audit_figure_collisions.py",
+    "exit_code": 0
+  }
+]
