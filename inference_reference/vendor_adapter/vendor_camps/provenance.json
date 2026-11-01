@@ -1,0 +1,24 @@
+{
+  "source_commit": "cf7658bc5d504ba6d996fa7b152270e38275dc46",
+  "repository": "https://github.com/mayuefine/c_AMPs-prediction",
+  "vocab": "https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-uncased-vocab.txt",
+  "config": "https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-uncased-config.json",
+  "local_real_weights_inference": false,
+  "local_keras_inference": false,
+  "server_smoke_required": true,
+  "vendor_sha256": {
+    "vendor/Attention.py": "7fdd0c401e63e069fb061bf689786aff87f319920bffcf96b5acd115b9782066",
+    "vendor/bert_config.json": "b62f679d0d69b6deeb639fbf48f57fb255e9473e2dcbee2c4b19d286bbbe7c7c",
+    "vendor/features.py": "9567ba9608f5cb98c884b6215203e4550c963120cb2795b54560d9af3d263e04",
+    "vendor/LICENSE": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+    "vendor/model.py": "ed9f47dd09dbd991a648df96d9d2d465790291d08f338042b6d58945a099d690",
+    "vendor/modeling.py": "0cb34e15354ff02b7c2df7b57432eb35864ba427006edd12d33b50b9c38231d4",
+    "vendor/reference/format.pl": "56f01e460a53aa4dfa66a6480a4a400702c39d6914702904d5dd7d00ebf437b4",
+    "vendor/reference/prediction_attention.py": "4e06e9d4708038a4ee47d3489ff1fd63d0a2e1042cb2cc0dc9607dc956c2f6c2",
+    "vendor/reference/prediction_bert.py": "89c16e98ca23532af67b51953048bb979c2f873e4f65a946d068e3429c83db47",
+    "vendor/reference/prediction_lstm.py": "721d168877c8ec0f81b16632530667e79d1a69b3f958d1a53b14d740cc84cfba",
+    "vendor/reference/result.pl": "40a8078cbed99d7a69a65c0c5ac81089233e3d6a047ad1a1dded9966415b8f4f",
+    "vendor/tokenization.py": "f544321f1ef574f985e5ecde16ed8a7ae56edfd3ab9e57a6a3911ab0b0bff5d0",
+    "vendor/vocab.txt": "07eced375cec144d27c900241f3e339478dec958f92fddbc551f295c992038a3"
+  }
+}

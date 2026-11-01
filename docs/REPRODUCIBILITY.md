@@ -1,3 +1,7 @@
+## Current release v1.2.0
+
+This release adds the study inference adapters, exact model-identity records, recorded runtime versions and the 169-input panel queries. Start with inference_reference/README.md and MODEL_ENVIRONMENT_REGISTRY.tsv. Statistical results and saved figure intervals remain unchanged from v1.1.1 (DOI 10.5281/zenodo.23856452). The v1.1.1 DOI identifies that earlier snapshot and does not include the newly restored inference files. Cite the v1.2.0 version DOI only after its Zenodo record is verified. Until then, the precise source snapshot is the GitHub v1.2.0 release. Older release instructions below are historical.
+
 # Reproducibility scope
 
 The public inputs support numerical recomputation of the added sequence

@@ -1,0 +1,30 @@
+{
+  "version": "published_amp_six_by_six_v1.2",
+  "source_work": "/home/omics/jinzy/ai-peptide/runs/external_plm_holdout_v2_2_20261007",
+  "source_manifest_sha256": "b8499c6988678a74cd8045bc2c0f9cd8adc8b5227977d0a4bf5b1a1153b76d34",
+  "work": "/home/omics/jinzy/ai-peptide/runs/published_amp_six_by_six_v1_2_20261010",
+  "recovery": {
+    "version": "published_amp_six_by_six_v1.1",
+    "work": "/home/omics/jinzy/ai-peptide/runs/published_amp_six_by_six_v1_1_20261009",
+    "package": "/home/omics/jinzy/ai-peptide/tools/published_amp_six_by_six_v1_1",
+    "package_manifest_sha256": "e8558d4016b3da90a362e20b799fab5ff8f1978cacf325f57c38fb81619f96af",
+    "minimum_committed_chunks": 128,
+    "expected_total_chunks": 133
+  },
+  "audit_python": "/home/omics/jinzy/software/envs/amp_esmc_tenfold_v1/bin/python",
+  "camps_smoke": "/home/omics/jinzy/ai-peptide/runs/camps_recovery_smoke_v1_48o2iJvY",
+  "cpu_budget": 16,
+  "min_host_available_gib": 64,
+  "gpu_indices": [4, 5, 6, 7],
+  "min_gpu_free_mib": 14000,
+  "chunk_sizes": {"Macrel": 8192, "AMPlify": 2048, "ampir": 8192, "tsAMP_I": 1024, "HMD_AMP": 1024, "camps_keras": 4096, "camps_bert": 2048},
+  "tools": {
+    "Macrel": {"executable": "/home/omics/jinzy/software/envs/amp_macrel_1_6_1/bin/python"},
+    "AMPlify": {"executable": "/home/omics/jinzy/software/envs/amp_amplify_2_0_1_fixed/bin/python"},
+    "ampir": {"executable": "/home/omics/jinzy/software/envs/amp_ampir_1_1_0/bin/Rscript"},
+    "tsAMP_I": {"executable": "/home/omics/jinzy/software/envs/amp_tsamp_i_82c72209/bin/python", "resources": "/home/omics/jinzy/software/models/tsAMP-I_released_82c72209"},
+    "HMD_AMP": {"executable": "/home/omics/jinzy/software/envs/amp_hmd_amp_158879d4/bin/python", "resources": "/home/omics/jinzy/software/models/HMD-AMP_released_158879d4"},
+    "camps_keras": {"executable": "/home/omics/jinzy/software/envs/amp_amplify_2_0_1_fixed/bin/python"},
+    "camps_bert": {"executable": "/home/omics/jinzy/software/envs/esm2_15b/bin/python"}
+  }
+}

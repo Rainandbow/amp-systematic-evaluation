@@ -1,0 +1,11 @@
+{
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "statistical_numpy": "2.3.5",
+  "python_docx": "1.2.0",
+  "openpyxl": "3.1.5",
+  "graphics": {
+    "matplotlib": "3.11.2",
+    "PyMuPDF": "1.28.2"
+  },
+  "note": "Matplotlib and PyMuPDF loaded from existing local dependency folders after importing pinned statistical NumPy. No model inference repeated."
+}

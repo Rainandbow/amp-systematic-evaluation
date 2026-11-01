@@ -1,0 +1,12 @@
+{
+  "commit": "cf7658bc5d504ba6d996fa7b152270e38275dc46",
+  "files": {
+    "/home/omics/jinzy/software/envs/c_AMPs/lstm.h5": "b5c8fbcca9859f5982ff72b255be12ab752ef5151ed4b65402e58fbf8363dc3a",
+    "/home/omics/jinzy/software/envs/c_AMPs/att.h5": "3c8279f0bc8cf56f23a02c0e22ce6f4cc62577c33b2c661d4a3917a3f1bed808",
+    "/home/omics/jinzy/software/models/c_AMPs_recovery/bert.bin": "83d53e596c4c59a3997738fef19fd48722a70591be34c25269e185407497bcda"
+  },
+  "versions": {
+    "torch": "2.11.0+cu130",
+    "numpy": "2.5.3"
+  }
+}

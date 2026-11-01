@@ -1,0 +1,37 @@
+[
+  {
+    "component": "Macrel",
+    "source_identity": "E:\\北鲳\\AMP系统评价论文\\external_pu_six\\run_20261015T050150_1986006\\03_jobs\\Macrel__000000\\attempt_d845e0686529\\identity.json",
+    "sha256": "2ce69d8553a0d2ff42b4f252f5d1d4b70de52dd4d12487b5ec5495a67e13862f"
+  },
+  {
+    "component": "AMPlify",
+    "source_identity": "E:\\北鲳\\AMP系统评价论文\\external_pu_six\\run_20261015T050150_1986006\\03_jobs\\AMPlify__000000\\attempt_c260b3aa22a7\\identity.json",
+    "sha256": "41362c7986fc6905ff2b0a858016bf698906271058a0d77c2d950eef1bda1e16"
+  },
+  {
+    "component": "ampir",
+    "source_identity": "E:\\北鲳\\AMP系统评价论文\\external_pu_six\\run_20261015T050150_1986006\\03_jobs\\ampir__000000\\attempt_b621d446781f\\identity.json",
+    "sha256": "c97907e0aee5ff4029efcb7790cc9c63d70138a790e681f848b7623628466b6c"
+  },
+  {
+    "component": "tsAMP_I",
+    "source_identity": "E:\\北鲳\\AMP系统评价论文\\external_pu_six\\run_20261015T050150_1986006\\03_jobs\\tsAMP_I__000000\\attempt_0c3e7c5e6a3c\\identity.json",
+    "sha256": "c40022be2973cc1029e240fd499539d1de52ec81e0ed6467995f9b3af37a9a50"
+  },
+  {
+    "component": "HMD_AMP",
+    "source_identity": "E:\\北鲳\\AMP系统评价论文\\external_pu_six\\run_20261015T050150_1986006\\03_jobs\\HMD_AMP__000000\\attempt_85309c848f91\\identity.json",
+    "sha256": "fa6b08c78d9728be2bf734924aff0314f57f10c490edb6b6bcba9442bdd17ef0"
+  },
+  {
+    "component": "camps_keras",
+    "source_identity": "E:\\北鲳\\AMP系统评价论文\\external_pu_six\\run_20261015T050150_1986006\\03_jobs\\camps_keras__000000\\attempt_48c8e9989e8b\\identity.json",
+    "sha256": "45470e4b20258d6884e0e28979590fb82e71c18e424bec622e871d870d4c945c"
+  },
+  {
+    "component": "camps_bert",
+    "source_identity": "E:\\北鲳\\AMP系统评价论文\\external_pu_six\\run_20261015T050150_1986006\\03_jobs\\camps_bert__000000\\attempt_d50d7427d643\\identity.json",
+    "sha256": "b043f19aa3140b2c74ee33901a53afd6aacd32f8d9e3f72b4a1844208e6ed148"
+  }
+]

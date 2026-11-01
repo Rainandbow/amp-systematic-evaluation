@@ -1,0 +1,18 @@
+{
+  "commit": "82c722090b10878edb0b9f45033e1806a659f2b7",
+  "torch": "2.8.0+cu128",
+  "files": {
+    "/home/omics/jinzy/software/models/tsAMP-I_released_82c72209/official/model.py": "5ec035ea6c5178fa85e97dbafd90e846dd2639c6d60a190b537e78c26d60e3db",
+    "/home/omics/jinzy/software/models/tsAMP-I_released_82c72209/official/predict.py": "bb58f297daa0f93d7d5bf4fe15c04ce0d368970ba9c79c1813e7107dd3ce10f1",
+    "/home/omics/jinzy/software/models/tsAMP-I_released_82c72209/official/charge.py": "37ebe799bac09ec4bf3939bf195603a40fb4dfa43c217cf1703ea80a8318f441",
+    "/home/omics/jinzy/software/models/tsAMP-I_released_82c72209/official/tsAMP-I.pt": "c0b85ecc7f0b8c2f9100cb829e09ad33dc204e470e4355877f945265d360f968",
+    "/home/omics/jinzy/software/models/tsAMP-I_released_82c72209/official/DBAASPN_10400.pt": "fa26287cd8d355bb5f958f8b935209c03a686756e1d3ac540c90ca27842249d9",
+    "/home/omics/jinzy/software/models/tsAMP-I_released_82c72209/official/DBAASPN_10401.pt": "295802f604840e0b5fa5c286470241daafaef7bf8d4cfd0ebb005de05ba2b5cf",
+    "/home/omics/jinzy/software/models/tsAMP-I_released_82c72209/official/L01A000044.pt": "c9aad5ca7f112e4b59c03b9a4bc4a0a9c3382723a0804a6494366c210f73582e",
+    "/home/omics/jinzy/software/models/tsAMP-I_released_82c72209/official/train_amp.fasta": "6e9c0fc921b91af06e3d27411233377ab7095cb966e83c66f2f1e5b5a2f9646a",
+    "/home/omics/jinzy/software/models/tsAMP-I_released_82c72209/official/testLAMP2.xlsx": "9a8950f7eecbe8c8ff22197488dee01a7fa2274a0d43e489dff1ee6477b3e005",
+    "/home/omics/jinzy/software/models/tsAMP-I_released_82c72209/esm1v_t33_650M_UR90S_1.pt": "9519ee60f1cddad3c101afb1f42612499e188534969c3f682e94850870f70433"
+  },
+  "backbone": "/home/omics/jinzy/software/models/tsAMP-I_released_82c72209/esm1v_t33_650M_UR90S_1.pt",
+  "reference_feature_parity_required": true
+}

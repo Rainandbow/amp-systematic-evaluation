@@ -1,0 +1,42 @@
+{
+  "commit": "158879d43b612b2000ee0ef541dc203cf495356e",
+  "versions": {
+    "torch": "2.8.0+cu128",
+    "fair-esm": "2.0.0",
+    "deep-forest": "0.1.7",
+    "scikit-learn": "1.3.0",
+    "numpy": "1.23.5",
+    "pandas": "1.5.3",
+    "scipy": "1.9.3",
+    "joblib": "1.3.2",
+    "biopython": "1.83"
+  },
+  "files": {
+    "/home/omics/jinzy/software/models/HMD-AMP_released_158879d4/official/README.md": "9ef7799cb330e28e13e057fd4061479fa4e8662880fdf8ad67cb74270247b578",
+    "/home/omics/jinzy/software/models/HMD-AMP_released_158879d4/official/prediction.py": "1f124b724dd706fab8797ed0e9c088ba5705ae4aa560117b85a3d7aba27e8a77",
+    "/home/omics/jinzy/software/models/HMD-AMP_released_158879d4/official/src/Net.py": "e93bc681c174535f3ab2220c5320cd762714f559c5b568f4f37a7d61547a3341",
+    "/home/omics/jinzy/software/models/HMD-AMP_released_158879d4/official/src/utils.py": "5da3ecb777605b88e4aa9a6f9a9db041c83a64e52b9959fbaf2d1eb71df85ba0",
+    "/home/omics/jinzy/software/models/HMD-AMP_released_158879d4/released/AMP/ft_parts.pth": "3a64d00b94a44a423146709e3d9fbb89c1200d02e23cb55374b02f7e80956993",
+    "/home/omics/jinzy/software/models/HMD-AMP_released_158879d4/released/AMP/clsmodel/param.pkl": "67a48272cac4dd640ace6138681fa071637145d47059fa50d3f4aac8a96f33a5",
+    "/home/omics/jinzy/software/models/HMD-AMP_released_158879d4/released/AMP/clsmodel/binner.pkl": "a7ebcbd7bb0e57f0ae819a70c29e8ad0fa392dd6026c08d28abe6a16c31fc51c",
+    "/home/omics/jinzy/software/models/HMD-AMP_released_158879d4/released/AMP/clsmodel/estimator/0-0-erf.est": "db7d44842aefec23c7db822a3f88ddf9ecaaeb2f3efc5a5d57011a600ea3cd0e",
+    "/home/omics/jinzy/software/models/HMD-AMP_released_158879d4/released/AMP/clsmodel/estimator/0-0-rf.est": "ab72bc06bc9bcebef68ac038a66be6c191201e530070a7d8803a9342efbda665",
+    "/home/omics/jinzy/software/models/HMD-AMP_released_158879d4/released/AMP/clsmodel/estimator/0-1-erf.est": "8433f7f91a0a6f000ccd194a8612af0aef4eaa681c1aaddaf25c12cf2ae1ef19",
+    "/home/omics/jinzy/software/models/HMD-AMP_released_158879d4/released/AMP/clsmodel/estimator/0-1-rf.est": "2f7acb839d663ae01cdea8473686f48362ff713481e38c84dc0442d2373abebe",
+    "/home/omics/jinzy/software/models/HMD-AMP_released_158879d4/released/AMP/clsmodel/estimator/0-2-erf.est": "3b0b2ea4fc6010f0d4b95513e388e37688d8288066c6bc41e472f7bb26e137b1",
+    "/home/omics/jinzy/software/models/HMD-AMP_released_158879d4/released/AMP/clsmodel/estimator/0-2-rf.est": "5bafd3d913a52e528490b6fa7c54545eed6573a2145c9469397baebdb3928f50",
+    "/home/omics/jinzy/software/models/HMD-AMP_released_158879d4/released/AMP/clsmodel/estimator/0-3-erf.est": "c1c4d5b8248bb57467d808ddb09e26d2c419e93c37ac42bcd136d9871adb8af9",
+    "/home/omics/jinzy/software/models/HMD-AMP_released_158879d4/released/AMP/clsmodel/estimator/0-3-rf.est": "c466147a60e3ff456d4c0d464483d8a5997034935c4160610c0fe73668e5d84f",
+    "/home/omics/jinzy/software/models/HMD-AMP_released_158879d4/released/AMP/clsmodel/estimator/1-0-erf.est": "836ec11bd23f73fb9635b7d9500b4bda014f2dd942b9a68eff30e2df8340dcd8",
+    "/home/omics/jinzy/software/models/HMD-AMP_released_158879d4/released/AMP/clsmodel/estimator/1-0-rf.est": "e2b1761c194a367f4d3db90b07601e15c8bdab55f9e2129dbb5a5d3ed6549e23",
+    "/home/omics/jinzy/software/models/HMD-AMP_released_158879d4/released/AMP/clsmodel/estimator/1-1-erf.est": "2eef5e8a333141bfe61fe3f48d67f460fcedeb39e2bbd2ba3bfdd6a68754ece3",
+    "/home/omics/jinzy/software/models/HMD-AMP_released_158879d4/released/AMP/clsmodel/estimator/1-1-rf.est": "3d269d5efc8d8a43817bc14bd4dcbe7e143e6e63d9cb03a78f4142d0239a4cac",
+    "/home/omics/jinzy/software/models/HMD-AMP_released_158879d4/released/AMP/clsmodel/estimator/1-2-erf.est": "9906a6c19388187cbf1d09e77d407cce1d407d2b54845d7b0b4c177a103c1b71",
+    "/home/omics/jinzy/software/models/HMD-AMP_released_158879d4/released/AMP/clsmodel/estimator/1-2-rf.est": "e21647b6af0a5b04912970ffcff8ecda944a8d8efb207c5608e4f8717627d0a9",
+    "/home/omics/jinzy/software/models/HMD-AMP_released_158879d4/released/AMP/clsmodel/estimator/1-3-erf.est": "2bfb09faa5c32a3f5e049d835ccb22495e5a023107888308668310b2735fb357",
+    "/home/omics/jinzy/software/models/HMD-AMP_released_158879d4/released/AMP/clsmodel/estimator/1-3-rf.est": "4fe6603eddaf68d7cd6554c3b81c1212b038801fa8e4b46e0b3448bdeebe00a3",
+    "/home/omics/jinzy/software/models/HMD-AMP_released_158879d4/esm2_t33_650M_UR50D.pt": "ea9d0522b335a8778dea6535a65301f10208dece28cd5865482b0b1fc446168c",
+    "/home/omics/jinzy/software/models/HMD-AMP_released_158879d4/classifier_audit.json": "fd90c18fc1412267336f8eb784f846847d308eed9793b73dc11fb961473ad8c6"
+  },
+  "backbone": "/home/omics/jinzy/software/models/HMD-AMP_released_158879d4/esm2_t33_650M_UR50D.pt"
+}

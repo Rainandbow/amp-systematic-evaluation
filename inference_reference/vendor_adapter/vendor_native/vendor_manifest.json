@@ -1,0 +1,6 @@
+{
+  "02_prepare_and_compare_published_amp.py": "89199a77732913290edc86de76a79d4027fb94a24ebd44b2e1dbbd55e5cc12c2",
+  "04_predict_amplify_cpu.py": "92a4bd8bbf8cc78a5727af16eb63f6216680dd34056ef6039675a3b7ab2606b4",
+  "08_smoke_tsamp_released.py": "19155f3fd9f98eca0940a8498bcd49adeeea6ed84b3213edf32dac89c6ff9143",
+  "09_audit_hmd_amp_released.py": "621da529236ebc07b9429c044d1d2f67fa134fc4bb13618ff8cf904237c7a12d"
+}

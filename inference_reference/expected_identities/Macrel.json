@@ -1,0 +1,29 @@
+{
+  "version": "1.6.1",
+  "onnxruntime": "1.25.1",
+  "files": {
+    "/home/omics/jinzy/software/envs/amp_macrel_1_6_1/lib/python3.11/site-packages/macrel/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "/home/omics/jinzy/software/envs/amp_macrel_1_6_1/lib/python3.11/site-packages/macrel/AMP_predict.py": "424de48c69ad9455643d69249da3d820feddb0c1702172ade1936ddff43da6c9",
+    "/home/omics/jinzy/software/envs/amp_macrel_1_6_1/lib/python3.11/site-packages/macrel/macrel_features.py": "16df0e11d5b84d3beb3433961b8477c648ef71cf08d93338306c084baca7ca04",
+    "/home/omics/jinzy/software/envs/amp_macrel_1_6_1/lib/python3.11/site-packages/macrel/database.py": "81019e7e62e638a03f4c7324ca3684e958d110d52adcfcfb42eafa6cfe7164f9",
+    "/home/omics/jinzy/software/envs/amp_macrel_1_6_1/lib/python3.11/site-packages/macrel/output.py": "b31f8f747e74d6a1c6f0622260bd9d8d41439e900085d330642e6adf82754bfe",
+    "/home/omics/jinzy/software/envs/amp_macrel_1_6_1/lib/python3.11/site-packages/macrel/filter_smorfs.py": "31e86a409e871e885e2b23cd73487285cea51bffa4c7d387aeb9d344278077a6",
+    "/home/omics/jinzy/software/envs/amp_macrel_1_6_1/lib/python3.11/site-packages/macrel/ampsphere.py": "f1edca45f1c4d7410feb4d54917298082270238098adb452c0495e30c831b304",
+    "/home/omics/jinzy/software/envs/amp_macrel_1_6_1/lib/python3.11/site-packages/macrel/fasta.py": "090ef09cab37c81c4c75b13c8907ce2aff8166a335280bf5e6c3ab5532a582c8",
+    "/home/omics/jinzy/software/envs/amp_macrel_1_6_1/lib/python3.11/site-packages/macrel/utils.py": "7a64d0bf377883c15c1b527cb3f5fd3a53e009fc7e5e892144bf26c506935b88",
+    "/home/omics/jinzy/software/envs/amp_macrel_1_6_1/lib/python3.11/site-packages/macrel/main.py": "c0e113bbac74a7530f3d69ba0796592321cef6ffcae8683944943a909b81041d",
+    "/home/omics/jinzy/software/envs/amp_macrel_1_6_1/lib/python3.11/site-packages/macrel/ORFs_prediction.py": "2c9ecddf5bb5d7436e31a179f5c5a216f2c1b90415e222e45861498af994642d",
+    "/home/omics/jinzy/software/envs/amp_macrel_1_6_1/lib/python3.11/site-packages/macrel/macrel_version.py": "a6eaedb8bbec90084474d2d28f1a18a9489b3456ce1e4d0807959ce0a080ee5e",
+    "/home/omics/jinzy/software/envs/amp_macrel_1_6_1/lib/python3.11/site-packages/macrel/AMP_features.py": "0de3d3a0f99a531c8b61f4965c05aab222d07966d48d38a43fdaece8242c9a55",
+    "/home/omics/jinzy/software/envs/amp_macrel_1_6_1/lib/python3.11/site-packages/macrel/data/scripts/trim.pe.ngl": "5f214c7b2fa5271442e110e4795c3796d89f7b21786616d7e0573cfae6b8e08c",
+    "/home/omics/jinzy/software/envs/amp_macrel_1_6_1/lib/python3.11/site-packages/macrel/data/scripts/count.ngl": "02f0bea384650a5e9438213ae0234358ecdc558932a7a5bf00d36ac747ffeeb2",
+    "/home/omics/jinzy/software/envs/amp_macrel_1_6_1/lib/python3.11/site-packages/macrel/data/scripts/trim.se.ngl": "b6ad57cc738e9fc139af9f325d89feb80bda8e02651aa0ffc8cbe3bac147df1e",
+    "/home/omics/jinzy/software/envs/amp_macrel_1_6_1/lib/python3.11/site-packages/macrel/data/models/AMP.onnx.gz": "0a674ef6f774c26e6d2f80d550df3fc54973ae05bfeee1b9dfd905e027a4a388",
+    "/home/omics/jinzy/software/envs/amp_macrel_1_6_1/lib/python3.11/site-packages/macrel/data/models/Hemo.onnx.gz": "6c68af240d43f6fde2eff64645f7f5cedf215b619e510b75c47b257b0713e8b1",
+    "/home/omics/jinzy/software/envs/amp_macrel_1_6_1/lib/python3.11/site-packages/macrel/tests/test_main.py": "66dd549a5b7763cb2fc347975a45cb40b86b5d1e41d2fc9dd0264578bb4db0ee",
+    "/home/omics/jinzy/software/envs/amp_macrel_1_6_1/lib/python3.11/site-packages/macrel/tests/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "/home/omics/jinzy/software/envs/amp_macrel_1_6_1/lib/python3.11/site-packages/macrel/tests/test_ampsphere.py": "558870b920ef0ed9a59c3e7c4b471eaf34f9c1ba8947b8a0fa06d28eb9c33be0",
+    "/home/omics/jinzy/software/envs/amp_macrel_1_6_1/lib/python3.11/site-packages/macrel/tests/test_features.py": "95dece5a5ada4574f13a63e22d781f18f6fe48e98c40ebdbb2ee7c85c12b5ec7",
+    "/home/omics/jinzy/software/envs/amp_macrel_1_6_1/lib/python3.11/site-packages/macrel/tests/test_predict.py": "2f1660b4943df90647ff1ffff1089542321bc6188c895d3bb8cc8ebab6cb63e2"
+  }
+}

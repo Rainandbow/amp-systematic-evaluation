@@ -1,0 +1,17 @@
+{
+  "version": "2.0.1",
+  "variant": "balanced_five_submodel_mean",
+  "tensorflow": "1.12.0",
+  "keras": "2.2.4",
+  "source": "/home/omics/jinzy/software/envs/amp_amplify_2_0_1_fixed/share/amplify/src/AMPlify.py",
+  "files": {
+    "/home/omics/jinzy/software/envs/amp_amplify_2_0_1_fixed/share/amplify/src/AMPlify.py": "68fdcf72745cd911d2d50624b619ccf322c08992c31d663c10539c1bd75ea0f6",
+    "/home/omics/jinzy/software/envs/amp_amplify_2_0_1_fixed/share/amplify/src/layers.py": "cac0b5a8ddbdc5d69c4dad2d62fdf296bf48c0823456144406fc45fde0aaff2f",
+    "/home/omics/jinzy/software/envs/amp_amplify_2_0_1_fixed/share/amplify/models/balanced/AMPlify_balanced_model_weights_1.h5": "f9a0bf942a3ea6b01579295c6e4b87125e0a05c5a373de0fb54c5c5eb8280cf2",
+    "/home/omics/jinzy/software/envs/amp_amplify_2_0_1_fixed/share/amplify/models/balanced/AMPlify_balanced_model_weights_2.h5": "f3542737840254e4135ef238413c8dac67cc5ddde9782004d7ad42cac35cf0a5",
+    "/home/omics/jinzy/software/envs/amp_amplify_2_0_1_fixed/share/amplify/models/balanced/AMPlify_balanced_model_weights_3.h5": "b6644c510b57d202fa08330af402e6d2c76735cf577a3d7832a3cb1175de5bd3",
+    "/home/omics/jinzy/software/envs/amp_amplify_2_0_1_fixed/share/amplify/models/balanced/AMPlify_balanced_model_weights_4.h5": "1718d26c4ba00e93ba65329995bdb52f6f449d7e379ba891371436258f82d87a",
+    "/home/omics/jinzy/software/envs/amp_amplify_2_0_1_fixed/share/amplify/models/balanced/AMPlify_balanced_model_weights_5.h5": "cbb8012d0a31c2076591b3e6e0f300e63bae0d485b63a46d4f9dcc84e7b36446",
+    "/home/omics/jinzy/software/envs/amp_amplify_2_0_1_fixed/conda-meta/amplify-2.0.1-py36hdfd78af_2.json": "09d2ee8150077975c1eaa682f7adc171fee40a744061adad7589310f8ffda929"
+  }
+}

@@ -9,7 +9,7 @@
       "name": "Xiao, Feifei"
     }
   ],
-  "description": "Analysis and figure-generation software under Apache-2.0, with eight bundled processed statistical input files and frozen outputs under CC BY 4.0 (see docs/LICENSING.md for scopes and source attribution). Supports the added sequence-baseline, within-family and group-separated selection analyses from saved model outputs. Historical raw sequence letters are omitted; exact sequence SHA256 identities, labels, groups, scores and decisions are retained. Third-party model weights and original source publications/workbooks are not included. The earlier v1.0.0 archive is code-only; cite the actual updated release used.",
+  "description": "Released AMP predictor evaluation. v1.2.0 restores study inference adapters, model-identity fingerprints, recorded runtime versions and 169 identity-verified panel inputs. Fixed-output statistics, activity labels and archived intervals are unchanged. Project code and reused GPL components retain their respective licence scopes.",
   "license": "Apache-2.0",
   "access_right": "open",
   "keywords": [
@@ -24,5 +24,6 @@
       "relation": "isSupplementTo",
       "scheme": "url"
     }
-  ]
+  ],
+  "version": "v1.2.0"
 }
