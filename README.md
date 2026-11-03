@@ -1,47 +1,48 @@
-Current patch v1.2.1 fixes byte-level publication transport. See ARCHIVE_REPAIR_v1.2.1.md. Earlier version notes below are historical.
+# Systematic evaluation of released antimicrobial peptide predictors
 
-## Current release v1.2.0
+## Release v1.3.0
 
-This release adds the study inference adapters, exact model-identity records, recorded runtime versions and the 169-input panel queries. Start with inference_reference/README.md and MODEL_ENVIRONMENT_REGISTRY.tsv. Statistical results and saved figure intervals remain unchanged from v1.1.1 (DOI 10.5281/zenodo.23856452). The v1.1.1 DOI identifies that earlier snapshot and does not include the newly restored inference files. Cite the v1.2.0 version DOI only after its Zenodo record is verified. Until then, the precise source snapshot is the GitHub v1.2.0 release. Older release instructions below are historical.
+This version integrates the six-main-figure evaluation, paired sequence baselines and family diagnostics, inference provenance, linked reliability analysis, and the 2,000-draw joint auxiliary-selector refitting update. It publishes existing calculations; no new AMP inference or wet experiment is claimed. Scientific labels, budgets, protocols, estimators and saved result values remain fixed. Historical/reference letters are replaced by verified hashes and lengths for saved-feature statistics.
 
-# Systematic evaluation of released AMP predictors
+## Start here
 
-Analysis, processed inputs and figure-generation code for Macrel, AMPlify, ampir, tsAMP-I, HMD-AMP and c_AMPs.
-
-## Current manuscript reconstruction prepared for v1.1.1
-
-The complete current six-main-figure workflow is in [`six_main_figures_v1_1_20261101/`](six_main_figures_v1_1_20261101/). From that directory, use Python 3.12 and an isolated environment:
+Use Python 3.12 in an isolated environment. The original main-figure module retains its own requirements. For the added reliability/refit modules install requirements-reliability.txt. The recorded analysis environment is not a portable AMP-model inference environment.
 
 ```bash
-cd six_main_figures_v1_1_20261101
-python -m pip install -r requirements.txt
-python run.py check
-python run.py points
-python run.py figures
+python -m pip install -r requirements-reliability.txt
+python release.py check
+python release.py selftest
+python release.py main-points --output ../check_main_points
+python release.py main-figures --output ../check_main_figures
+python release.py reliability-figures --output ../check_reliability_figures
+python release.py refit-figure --output ../check_updated_S29
 ```
 
-`points` recalculates saved-output point estimates and validates denominators. `figures` rebuilds all six current main figures from the frozen formal points and archived intervals. `uncertainty` reruns 10,000 grouped resamples independently for historical MCC/length strata and the ApexGO inferential panels of Figure6; its new fixed-seed outputs remain separate from the plotted historical intervals. `baseline` and `transfer` rerun the original formal baseline/family and group-separated selection protocols. No command above retrains or reruns an AMP predictor.
+Output directories must not already exist. Figure commands use saved estimates and intervals. To repeat numerical calculations without AMP inference:
 
-The panel-by-panel mapping is in [`MAIN_FIGURE_REGISTRY.tsv`](six_main_figures_v1_1_20261101/docs/MAIN_FIGURE_REGISTRY.tsv). Revision diagnostic packages under `revision_diagnostics/` contain absolute validation outcomes, all 48 paired shortest-first hit differences, and family/block composition and deletion checks. The archived scientific result tables were preserved. The third-step publication package replaces historical raw letters with the same public SHA256-based statistical input; 29,104 rows were checked cell-by-cell and all 14 influence-analysis tables rebuilt byte-for-byte.
+```bash
+python release.py reliability-statistics --output ../recompute_reliability
+python release.py refit-smoke --output ../check_refit_smoke
+python release.py refit-statistics --workers 3 --output ../recompute_refit
+```
 
-The current formal baseline/family and group-separated analyses also reproduced 14 formal statistical tables byte-for-byte. These two 14-table checks cover different analysis sets and do not imply that every historical bootstrap stream was recreated exactly. Bootstrap intervals are exploratory, pointwise and unadjusted. Fig5 partition spread is sensitivity to reused group assignments, not a confidence interval or independent external replications.
+The smoke test has only 20 draws and does not validate formal results. The formal refit uses all 2,000 draws per fold. Reliability statistics uses the original 20 partitions and 10,000-draw conditional intervals. The original six-main-figure commands for baseline, transfer and independent uncertainty are documented in six_main_figures_v1_1_20261101/README.md.
 
-## Earlier public version
+## Figure and table map
 
-The original repository-root commands remain available for the v1.0.1 baseline/family and group-separated analyses and the earlier seven-figure subset. Their eight processed inputs are in `analysis/inputs/`. Running the original root `python run.py figures` does not build the current six-figure set; enter the supplement directory above for those figures.
+| Manuscript object | Authoritative source / entry |
+|---|---|
+| Main Figures 1–6 | six_main_figures_v1_1_20261101; release.py main-points / main-figures |
+| S28 high-confidence diagnostics | reliability; A_high_confidence_error_map from reliability-figures |
+| Updated S29 and S16 | refit/data and refit/results/refit_formal; refit-figure / refit-statistics |
+| S30 and S17 | reliability experimental retention tables; C_AMPlify_experimental_selection_utility |
+| Earlier conditional-only distance intervals | reliability/results, supporting comparison only; not the updated manuscript S29 |
+| Inference adapters / model identities | inference_reference/README.md and MODEL_ENVIRONMENT_REGISTRY.tsv |
 
-The earlier version is archived at https://doi.org/10.5281/zenodo.23836777. Cite the actual version used. A DOI for the v1.1.0 release must be taken from the successful Zenodo archive record; no new DOI is assumed here.
+Exact exported filenames are recorded in docs/RELEASE_FIGURE_REGISTRY.tsv. All source/model cases, omitted intervals and unavailable states remain represented. Repeated partitions are sensitivity, not independent external replications. Distance inventories are source-qualified, not complete proof of fitted-training independence.
 
-## Data, sources and licences
+## Data access and licences
 
-Project software uses Apache-2.0, retaining notices for reused components. The specified study-generated processed statistical data and compilation use CC BY4.0, with source attribution and applicable third-party rights retained. See `LICENSE`, `NOTICE`, `LICENSES/CC-BY-4.0.txt`, `docs/LICENSING.md`, `docs/SOURCES.md` and the corresponding documentation under the supplement's `formal_analysis/` directory.
+Saved-feature statistics is self-contained, including the six development selection/distance feature files, hashed sequence index and nearest-reference features. Original letters are required for distance reconstruction, similarity grouping and new AMP inference. Read docs/RELIABILITY_DATA_ACCESS.md and docs/SOURCES.md for exact source routes, row identities and fingerprint checks. Raw historical sequence letters and complete third-party reference inventories are not redistributed in this release. Source article PDFs/workbooks and trained model weights are not bundled.
 
-Historical inputs preserve sequence SHA256 identities, labels, lengths, groups, predictions and scores, sufficient for fixed-output statistics. Original historical peptide letters are omitted. Original experimental evidence retains reported source identifiers, sequence/activity annotations and source locations. Source workbooks, publications and third-party model weights are accessed through the original sources and are not redistributed as original files here. New model inference and sequence grouping require those original inputs and environments.
-
-Original and added experimental panels retain separate memberships: the original panel has 156 tested peptides and 84 primary activity positives; the added primary panel has151 candidates (100+20+24+7),121 activity positives and30 above-threshold records. c_AMPs uses the supplementary minimum-branch score only for ranking and remains ineligible for score-extremeness retention/transfer.
-
-Software creators follow the existing confirmed record: Zhiyu Jin and Feifei Xiao. Third-party authors retain their own credits. The manuscript author list is separate from the software record metadata.
-
-
-## Packaging repair prepared for v1.1.1
-The previous v1.1.0 archive is https://doi.org/10.5281/zenodo.23856220. Its website-uploaded snapshot omitted two nested metadata dotfiles and retained an older root metadata file, causing the checksum check to stop. This repair makes the manifests describe the files actually present; no hash checks are disabled. Scientific inputs, model predictions, analysis code, frozen estimates and intervals are unchanged. Use the actual v1.1.1 DOI only after successful archival.
+Project-authored code uses Apache-2.0. Reused components retain their licences, including the GPL c_AMPs vendor subtree. Specified processed statistical outputs and compilations use CC BY 4.0 with source attribution; third-party source rights remain in force. See LICENSE, NOTICE and docs/LICENSING.md. The version-specific DOI must be taken from the successfully verified Zenodo record; no DOI is preassigned here. Earlier version history is retained in the release history files and Git tags.

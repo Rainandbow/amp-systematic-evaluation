@@ -1,21 +1,9 @@
-Current patch v1.2.1 fixes byte-level publication transport. See ARCHIVE_REPAIR_v1.2.1.md. Earlier version notes below are historical.
+# 抗菌肽预测模型系统评估复现包 v1.3.0
 
-## Current release v1.2.0
+本版整合已有六主图、简单基线和家族诊断、公开推理身份记录、新增可靠性分析及2,000次联合重拟合结果。没有新增模型推理或湿实验。统计协议和原数值保持，历史及参考序列以哈希身份和核实长度发布。
 
-This release adds the study inference adapters, exact model-identity records, recorded runtime versions and the 169-input panel queries. Start with inference_reference/README.md and MODEL_ENVIRONMENT_REGISTRY.tsv. Statistical results and saved figure intervals remain unchanged from v1.1.1 (DOI 10.5281/zenodo.23856452). The v1.1.1 DOI identifies that earlier snapshot and does not include the newly restored inference files. Cite the v1.2.0 version DOI only after its Zenodo record is verified. Until then, the precise source snapshot is the GitHub v1.2.0 release. Older release instructions below are historical.
+请按英文README中的release.py命令操作。check核对字节；selftest检查统计实现和推理发布身份；main-points复算主图点估计；main-figures重建六主图；reliability-statistics复算20次分割及10,000次条件重抽样；refit-statistics复算全部2,000次联合重拟合；各绘图命令只使用保存的估计和区间。输出必须使用新目录。
 
-# 当前六张主图与修订诊断
+六个development_*.npz是复算依赖，不是可以随意删除的加速缓存。重拟合与统计复算可使用本包，不需要GPU或六模型权重。重新计算原始序列距离需要从原来源获得序列，使用RELIABILITY_DATA_ACCESS.md中的校验与单独工作副本入口。哈希不能反推出原序列，也不代表原始距离已独立复算。
 
-本次v1.1.1修复候选版在原有仓库中新增完整目录six_main_figures_v1_1_20261101，原有代码和输入保留。
-
-当前论文六图入口：先进入该目录，再执行python run.py check、python run.py points、python run.py figures。根目录原有run.py仍对应v1.0.1的基线/家族、分组验证和旧七图子集，不能混用。具体依赖与逐图登记见新增目录README及docs/MAIN_FIGURE_REGISTRY.tsv。
-
-revision_diagnostics保留表S11绝对验证、表S12最短优先48组配对差、表S13/S14与图S27家族和块删除诊断。公开版第三步历史输入已替换为SHA256标识，29,104行其余单元格和顺序未变，14张删除分析科学结果重建逐字节一致。原图4/5统计另有14张正式表复算一致；两组核验不是同一组表。
-
-原始v1.0.1 DOI为https://doi.org/10.5281/zenodo.23836777。v1.1.0需发布后核对实际Zenodo记录并取得版本DOI，不能沿用旧DOI声称旧包包含新增内容。
-
-代码Apache2.0、指定处理后统计数据CC BY4.0及第三方资料各自权利的范围，见现有NOTICE、docs/LICENSING.md和docs/SOURCES.md。历史原序列、原始工作簿和模型权重按原始来源获取。公开不等同于能从SHA256恢复序列或重新推理。
-
-
-## v1.1.1包装修复
-v1.1.0已经归档，版本DOI为https://doi.org/10.5281/zenodo.23856220。下载核验发现网页上传遗漏两个嵌套元数据隐藏文件，另保留了一份旧根元数据，与清单不符。修复版仅使清单准确对应现有文件，并补充说明；不跳过指纹校验。科学输入、预测、代码和统计结果未变。新版本DOI必须等实际归档后核实。
+当前论文S29/S16以refit目录为准；reliability中的旧条件区间仅作辅助比较。项目代码及数据许可范围见LICENSE、NOTICE和docs/LICENSING.md，不覆盖上游权重或原文章素材。

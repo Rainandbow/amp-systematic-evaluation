@@ -1,0 +1,6 @@
+{
+  "version": "v1.3.0",
+  "base_commit": "00de56e9e9420d9b79955259765345f0ef219703",
+  "scope": "Added linked reliability and joint refitting, frozen-feature statistical reconstruction; no new AMP inference or wet experiments",
+  "doi": null
+}
