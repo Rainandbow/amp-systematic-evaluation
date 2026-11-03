@@ -39,3 +39,7 @@ snapshot, with its recorded CC BY 4.0 metadata. This update does not replace its
 files or withdraw permissions already granted for that earlier snapshot.
 For a new archived release, use Apache-2.0 as the software metadata licence and
 describe the CC BY 4.0 processed-data exception explicitly.
+
+
+## v1.3.0 reliability/refit additions
+Project-authored reliability/refit software follows Apache-2.0; processed outputs and compilation follow CC BY 4.0 with source attribution. Historical/reference letters are omitted. Public hash, length, group and frozen-feature tables do not relicense original source sequences. Existing reused GPL components retain their original terms. See RELIABILITY_DATA_ACCESS.md.

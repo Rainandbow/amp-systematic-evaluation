@@ -1,0 +1,5 @@
+object	module	source	command
+MainFigures1-6	six_main_figures_v1_1_20261101	docs/MAIN_FIGURE_REGISTRY.tsv	python release.py main-figures --output NEW
+S28	reliability	results/diagnostic_cells.tsv	python release.py reliability-figures --output NEW
+S29,S16	refit	data/refit_intervals_80.tsv;data/Table_S16_joint_intervals.tsv	python release.py refit-figure --output NEW
+S30,S17	reliability	results/experimental_paired_intervals_80.tsv	python release.py reliability-figures --output NEW

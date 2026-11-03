@@ -1,0 +1,52 @@
+{
+  "historical_members.tsv.gz": {
+    "source": "E:\\北鲳\\AMP论文投稿资料汇总_20261017\\amp_baseline_honest_v1_20261026\\inputs\\historical_members.tsv.gz",
+    "sha256": "f3b4f9702686bb1fbaa25c9e3db1734411e7aa9bfdeac437d8a8309fa9655396",
+    "bytes": 2589482
+  },
+  "historical_scores.tsv.gz": {
+    "source": "E:\\北鲳\\AMP论文投稿资料汇总_20261017\\amp_baseline_honest_v1_20261026\\inputs\\historical_scores.tsv.gz",
+    "sha256": "5dfd8a772ed20117f6f03a1b674b1185a4ecae6c2ad8c7b6409a02864c96e8fe",
+    "bytes": 6754318
+  },
+  "members151.tsv": {
+    "source": "E:\\北鲳\\AMP论文投稿资料汇总_20261017\\amp_baseline_honest_v1_20261026\\inputs\\members151.tsv",
+    "sha256": "1f4c8cc8b9042a75558f9a87b2fbae3f150a1ef4810d7ad21f41f632da496161",
+    "bytes": 152571
+  },
+  "scores151.tsv": {
+    "source": "E:\\北鲳\\AMP论文投稿资料汇总_20261017\\amp_baseline_honest_v1_20261026\\inputs\\scores151.tsv",
+    "sha256": "42d0b363451b91f3a755a1e5afe45a03265f57ac378f00a744fad298b349514f",
+    "bytes": 253202
+  },
+  "candidates.tsv": {
+    "source": "E:\\北鲳\\AMP论文投稿资料汇总_20261017\\amp_baseline_honest_v1_20261026\\inputs\\candidates.tsv",
+    "sha256": "c6539b120ec379d282497433b100403a8088a1706553f7b0bb7ba616859d406b",
+    "bytes": 84494
+  },
+  "task_labels.tsv": {
+    "source": "E:\\北鲳\\AMP论文投稿资料汇总_20261017\\amp_baseline_honest_v1_20261026\\inputs\\task_labels.tsv",
+    "sha256": "7d313b397050ecf976c28b1787cba6698224b6e008759331315508194db604a8",
+    "bytes": 266980
+  },
+  "references.tsv.gz": {
+    "source": "E:\\北鲳\\AMP论文投稿资料汇总_20261017\\独立面板与筛选迁移_v1_20261023\\inputs\\references.tsv.gz",
+    "sha256": "4a08deda8a5a9ab34596124d125409d8902a13ae09313d60f14215237ae9cbe3",
+    "bytes": 22158782
+  },
+  "reference_membership.tsv.gz": {
+    "source": "E:\\北鲳\\AMP论文投稿资料汇总_20261017\\独立面板与筛选迁移_v1_20261023\\inputs\\reference_membership.tsv.gz",
+    "sha256": "bb0d2a4506dd3237ec19cb12d7f9ae9fb944b7fddef800cd41cb8f38f783d586",
+    "bytes": 12402616
+  },
+  "inventory.tsv": {
+    "source": "E:\\北鲳\\AMP论文投稿资料汇总_20261017\\独立面板与筛选迁移_v1_20261023\\inputs\\inventory.tsv",
+    "sha256": "a2eb52022ebe5c61c1bf7f8ec5cbbb5377780bcfefc70fb08e252db070c0960e",
+    "bytes": 513
+  },
+  "amplify_disagreement.tsv": {
+    "source": "E:\\北鲳\\AMP论文投稿资料汇总_20261017\\01_Manuscript\\论文图件数据整合_v11_20261025\\04_数据集与复现\\frozen\\reliability\\amplify_released_submodel_disagreement.tsv",
+    "sha256": "a1dc3e8933fd7e0239cb16fdd65efa1fe62b2d8a12edb48b3d1b44555d6e0850",
+    "bytes": 78492
+  }
+}
