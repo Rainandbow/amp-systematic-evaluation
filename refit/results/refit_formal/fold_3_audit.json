@@ -1,0 +1,15 @@
+{
+  "held_source": "HMD_AMP",
+  "bootstrap": 2000,
+  "selection_n": 19499,
+  "selection_groups": 17268,
+  "held_n": 1108,
+  "held_groups": 1108,
+  "empty_development_draws": 0,
+  "failed_model_draws": 0,
+  "constant_fits": 0,
+  "group_overlap": false,
+  "selection_labels_only": true,
+  "inventory_references_fixed": true,
+  "seconds": 165.4689176082611
+}

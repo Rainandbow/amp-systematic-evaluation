@@ -1,0 +1,7 @@
+tool	source_records	unique_reference_sequences	noncanonical_unique_n	inventory_role	complete_fitted_training_membership_proven
+Macrel	170059	169450	0	source_proxy_NOT_VERIFIED_TRAIN	False
+AMPlify	6676	6676	0	supplied_TRAIN_weight_mapping_not_proven	False
+ampir	5290	5212	0	recovered_official_TRAIN_weight_mapping_not_proven	False
+tsAMP_I	53534	48530	69	available_partial_TRAIN	False
+HMD_AMP	11970	11970	551	training_source_pool_NOT_final_fit_membership	False
+c_AMPs	0	0	0	TRAIN_sequence_mapping_UNAVAILABLE	False

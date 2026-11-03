@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "checks": [
+    "tie allocation",
+    "weighted resampling capacity",
+    "positive denominators",
+    "logistic known-signal direction",
+    "constant-feature/single-class handling",
+    "independent numerical gradient",
+    "independent prefix-class versus dense retention under ties/resampling"
+  ]
+}

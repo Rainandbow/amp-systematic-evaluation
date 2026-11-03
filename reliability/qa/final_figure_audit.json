@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "figures": [
+    "A_high_confidence_error_map",
+    "B_paired_added_distance_value",
+    "C_AMPlify_experimental_selection_utility"
+  ],
+  "visual_inspection": "PNG exports inspected: readable text, complete labels, no clipping or overlap; all planned source/model rows retained",
+  "exports": [
+    "editable PDF",
+    "editable SVG",
+    "600 dpi PNG",
+    "600 dpi LZW TIFF"
+  ],
+  "source_preflight": "21 PASS, 0 WARN, 0 FAIL",
+  "panel_alignment": "all strict 1.5 pt gates passed",
+  "pdf_text": "all minimum >=5 pt",
+  "collision": "all 0 FAIL, 0 WARN; heatmap cell-contained overlays intentional"
+}

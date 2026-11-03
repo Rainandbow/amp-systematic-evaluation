@@ -1,0 +1,52 @@
+{
+  "historical_members.tsv.gz": {
+    "source": "See docs/RELIABILITY_DATA_ACCESS.md and public transformation record",
+    "sha256": "74dd5216242b37962042c24070d2fa8c90d002fd3152b6bb492a904d7858cffd",
+    "bytes": 1584229
+  },
+  "historical_scores.tsv.gz": {
+    "source": "See docs/RELIABILITY_DATA_ACCESS.md and public transformation record",
+    "sha256": "00eb686dae399a35a142b42b3e74e9e692b5ff9a74d153bc2c2d704154a570fa",
+    "bytes": 4204782
+  },
+  "members151.tsv": {
+    "source": "See docs/RELIABILITY_DATA_ACCESS.md and public transformation record",
+    "sha256": "1f4c8cc8b9042a75558f9a87b2fbae3f150a1ef4810d7ad21f41f632da496161",
+    "bytes": 152571
+  },
+  "scores151.tsv": {
+    "source": "See docs/RELIABILITY_DATA_ACCESS.md and public transformation record",
+    "sha256": "42d0b363451b91f3a755a1e5afe45a03265f57ac378f00a744fad298b349514f",
+    "bytes": 253202
+  },
+  "candidates.tsv": {
+    "source": "See docs/RELIABILITY_DATA_ACCESS.md and public transformation record",
+    "sha256": "c6539b120ec379d282497433b100403a8088a1706553f7b0bb7ba616859d406b",
+    "bytes": 84494
+  },
+  "task_labels.tsv": {
+    "source": "See docs/RELIABILITY_DATA_ACCESS.md and public transformation record",
+    "sha256": "7d313b397050ecf976c28b1787cba6698224b6e008759331315508194db604a8",
+    "bytes": 266980
+  },
+  "references.tsv.gz": {
+    "source": "See docs/RELIABILITY_DATA_ACCESS.md and public transformation record",
+    "sha256": "78abe8fd7b694e3999b43ccd9647f2f84eb80728bfa8194771e5a30e5ed01cc0",
+    "bytes": 9819590
+  },
+  "reference_membership.tsv.gz": {
+    "source": "See docs/RELIABILITY_DATA_ACCESS.md and public transformation record",
+    "sha256": "bb0d2a4506dd3237ec19cb12d7f9ae9fb944b7fddef800cd41cb8f38f783d586",
+    "bytes": 12402616
+  },
+  "inventory.tsv": {
+    "source": "See docs/RELIABILITY_DATA_ACCESS.md and public transformation record",
+    "sha256": "a2eb52022ebe5c61c1bf7f8ec5cbbb5377780bcfefc70fb08e252db070c0960e",
+    "bytes": 513
+  },
+  "amplify_disagreement.tsv": {
+    "source": "See docs/RELIABILITY_DATA_ACCESS.md and public transformation record",
+    "sha256": "a1dc3e8933fd7e0239cb16fdd65efa1fe62b2d8a12edb48b3d1b44555d6e0850",
+    "bytes": 78492
+  }
+}

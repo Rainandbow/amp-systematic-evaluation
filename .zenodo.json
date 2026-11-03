@@ -9,7 +9,7 @@
       "name": "Xiao, Feifei"
     }
   ],
-  "description": "Byte-preserving repair of v1.2.0 inference provenance publication. Fixes CRLF/LF transport normalization so distributed files match SHA256 manifests. Scientific inputs, predictions, activity labels and statistical outputs are unchanged. Inference provenance records and original licence scopes are preserved.",
+  "description": "Complete manuscript analysis release with six main figures, published inference provenance, linked reliability analysis and 2,000-draw joint auxiliary-selector refitting. Frozen-feature statistical inputs use verified historical sequence SHA256 identities and lengths; raw-distance reconstruction requires source access. Project code and reused components retain their respective licence scopes.",
   "license": "Apache-2.0",
   "access_right": "open",
   "keywords": [
@@ -25,5 +25,5 @@
       "scheme": "url"
     }
   ],
-  "version": "v1.2.1"
+  "version": "v1.3.0"
 }

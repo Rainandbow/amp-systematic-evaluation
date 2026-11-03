@@ -1,0 +1,15 @@
+{
+  "held_source": "tsAMP_I",
+  "bootstrap": 2000,
+  "selection_n": 9528,
+  "selection_groups": 9290,
+  "held_n": 14862,
+  "held_groups": 12493,
+  "empty_development_draws": 0,
+  "failed_model_draws": 0,
+  "constant_fits": 0,
+  "group_overlap": false,
+  "selection_labels_only": true,
+  "inventory_references_fixed": true,
+  "seconds": 211.85479593276978
+}

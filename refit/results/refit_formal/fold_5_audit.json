@@ -1,0 +1,15 @@
+{
+  "held_source": "ampir_raw_mature90",
+  "bootstrap": 2000,
+  "selection_n": 19654,
+  "selection_groups": 17528,
+  "held_n": 583,
+  "held_groups": 583,
+  "empty_development_draws": 0,
+  "failed_model_draws": 0,
+  "constant_fits": 0,
+  "group_overlap": false,
+  "selection_labels_only": true,
+  "inventory_references_fixed": true,
+  "seconds": 153.64282202720642
+}

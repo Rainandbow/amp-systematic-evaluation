@@ -1,0 +1,9 @@
+﻿cohort	task	n	positive	threshold_negative	blocks	model	errors
+ApexGO_template_based	any_eligible_measured_strain	100	86	14	10	AMPlify	14
+ApexGO_template_based	source_reference_Ecoli	100	33	67	10	AMPlify	65
+ApexGO_template_free	any_eligible_measured_strain	20	20	0	20	AMPlify	0
+ApexGO_template_free	source_reference_Ecoli	20	14	6	20	AMPlify	6
+HydrAMP_auxiliary_preselected	any_eligible_measured_strain	24	13	11	4	AMPlify	11
+HydrAMP_auxiliary_preselected	source_reference_Ecoli	24	9	15	4	AMPlify	15
+HydrAMP_no_auxiliary_preselection	any_eligible_measured_strain	7	2	5	2	AMPlify	5
+HydrAMP_no_auxiliary_preselection	source_reference_Ecoli	7	2	5	2	AMPlify	5

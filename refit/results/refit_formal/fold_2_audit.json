@@ -1,0 +1,15 @@
+{
+  "held_source": "c_AMPs_benchmark_resplit",
+  "bootstrap": 2000,
+  "selection_n": 16028,
+  "selection_groups": 13870,
+  "held_n": 5916,
+  "held_groups": 5916,
+  "empty_development_draws": 0,
+  "failed_model_draws": 0,
+  "constant_fits": 0,
+  "group_overlap": false,
+  "selection_labels_only": true,
+  "inventory_references_fixed": true,
+  "seconds": 177.44045996665955
+}

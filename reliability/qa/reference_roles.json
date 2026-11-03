@@ -1,0 +1,67 @@
+{
+  "inventories": [
+    {
+      "tool": "Macrel",
+      "source_records": "170059",
+      "unique_reference_sequences": "169450",
+      "noncanonical_unique_n": "0",
+      "inventory_role": "source_proxy_NOT_VERIFIED_TRAIN",
+      "complete_fitted_training_membership_proven": "False"
+    },
+    {
+      "tool": "AMPlify",
+      "source_records": "6676",
+      "unique_reference_sequences": "6676",
+      "noncanonical_unique_n": "0",
+      "inventory_role": "supplied_TRAIN_weight_mapping_not_proven",
+      "complete_fitted_training_membership_proven": "False"
+    },
+    {
+      "tool": "ampir",
+      "source_records": "5290",
+      "unique_reference_sequences": "5212",
+      "noncanonical_unique_n": "0",
+      "inventory_role": "recovered_official_TRAIN_weight_mapping_not_proven",
+      "complete_fitted_training_membership_proven": "False"
+    },
+    {
+      "tool": "tsAMP_I",
+      "source_records": "53534",
+      "unique_reference_sequences": "48530",
+      "noncanonical_unique_n": "69",
+      "inventory_role": "available_partial_TRAIN",
+      "complete_fitted_training_membership_proven": "False"
+    },
+    {
+      "tool": "HMD_AMP",
+      "source_records": "11970",
+      "unique_reference_sequences": "11970",
+      "noncanonical_unique_n": "551",
+      "inventory_role": "training_source_pool_NOT_final_fit_membership",
+      "complete_fitted_training_membership_proven": "False"
+    },
+    {
+      "tool": "c_AMPs",
+      "source_records": "0",
+      "unique_reference_sequences": "0",
+      "noncanonical_unique_n": "0",
+      "inventory_role": "TRAIN_sequence_mapping_UNAVAILABLE",
+      "complete_fitted_training_membership_proven": "False"
+    }
+  ],
+  "canonical_reference_n": {
+    "Macrel": 169450,
+    "AMPlify": 6676,
+    "ampir": 5212,
+    "tsAMP_I": 48461,
+    "HMD_AMP": 11419
+  },
+  "excluded_noncanonical_n": {
+    "Macrel": 0,
+    "AMPlify": 0,
+    "ampir": 0,
+    "tsAMP_I": 69,
+    "HMD_AMP": 551
+  },
+  "distance_definition": "Levenshtein(unit cost) / max(lengths), global; not percent identity or old overlap criterion"
+}

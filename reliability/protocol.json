@@ -1,0 +1,109 @@
+{
+  "version": "linked_reliability_v1_20261102",
+  "fixed_at": "2026-11-02T19:58:07",
+  "scope": "post-hoc exploratory design amendment after earlier manuscript results; fixed before this new analysis; not preregistered",
+  "historical_records": 29104,
+  "historical_unique": 28481,
+  "panel_primary_records": 151,
+  "panel_tasks": [
+    "any_eligible_measured_strain",
+    "source_reference_Ecoli"
+  ],
+  "native_score_models": [
+    "Macrel",
+    "AMPlify",
+    "ampir",
+    "tsAMP_I",
+    "HMD_AMP"
+  ],
+  "camps": "native classification retained in coverage audit; no verified native ensemble probability; ineligible for confidence-based methods; no invented probability",
+  "reference_metric": "unit-cost global Levenshtein edit distance divided by maximum sequence length; nearest minimum over canonical reference sequences; whole-sequence distance, NOT MMseqs identity or earlier 90/80 overlap definition",
+  "inventory_reference": "fixed model-specific available inventory; roles/completeness preserved; exact overlap retained; not proof of fitted training membership or independence",
+  "development_reference": "selection-only sequences from other historical sources after held-source global group purge; query own global group excluded when constructing selection features; validation and held-source inputs never enter reference pool",
+  "splits": {
+    "folds": 6,
+    "repeats": 20,
+    "seed": 2026102602,
+    "selection_probability": 0.7,
+    "same_as_original_honest_transfer": true,
+    "primary_repeat_for_conditional_bootstrap": 1
+  },
+  "methods": [
+    "Decision_confidence",
+    "Inventory_similarity",
+    "Development_similarity",
+    "Logistic_C_L",
+    "Logistic_C_L_I",
+    "Logistic_C_L_D",
+    "Logistic_C_L_I_D",
+    "Random_expected"
+  ],
+  "features": {
+    "C": "clipped logit of probability assigned to saved native decision d*p+(1-d)*(1-p), clip 1e-6",
+    "L": "log sequence length",
+    "I": "nearest available inventory normalized edit distance",
+    "D": "nearest selection-only development normalized edit distance"
+  },
+  "auxiliary_selector": {
+    "target": "native decision error against retained historical source label",
+    "model": "logistic linear error model; source-balanced record weights; weighted standardization using selection only",
+    "ridge_average_loss_lambda": 0.01,
+    "interactions": false,
+    "hyperparameter_tuning": false,
+    "failure": "constant model for single error class; convergence recorded; no label-based rescue",
+    "original_AMP_weights_retrained": false
+  },
+  "coverage_targets": [
+    0.2,
+    0.4,
+    0.6,
+    0.8,
+    1.0
+  ],
+  "primary_coverage": 0.8,
+  "tie_policy": "retain ceil(coverage*n) weighted records; label-blind equal allocation at boundary ties; selection re-run within block bootstrap",
+  "primary_contrast": [
+    "Logistic_C_L_I",
+    "Logistic_C_L"
+  ],
+  "secondary_contrasts": [
+    [
+      "Logistic_C_L_D",
+      "Logistic_C_L"
+    ],
+    [
+      "Logistic_C_L_I_D",
+      "Logistic_C_L"
+    ],
+    [
+      "Inventory_similarity",
+      "Decision_confidence"
+    ],
+    [
+      "Development_similarity",
+      "Decision_confidence"
+    ]
+  ],
+  "endpoints": [
+    "conditional_error",
+    "positive_rejection",
+    "end_to_end_detection"
+  ],
+  "diagnostic_high_confidence": "saved-decision confidence >=0.95; q>=0.95 additionally audited; neither implies calibrated 95% correctness",
+  "diagnostic_distance_bins": "selection source-balanced distance tertiles frozen before held-label evaluation; confidence bins <.8, .8-.95, >=.95",
+  "bootstrap": {
+    "draws": 10000,
+    "seed": 2026110201,
+    "primary_repeat": 1,
+    "unit": "global sequence-dependence group within held source",
+    "same_draws_models_methods": true,
+    "refit_selector": false,
+    "recompute_retention": true,
+    "interval": "exploratory pointwise percentile, >=95% valid, nondegenerate, >=5 groups; no multiplicity adjustment",
+    "conditional_scope": "fixed selected training records, references and fitted auxiliary selectors; not full training/refit uncertainty"
+  },
+  "repeated_partitions": "20 reused held-source evaluations; sensitivity summaries NOT CIs or independent replications",
+  "experimental_extension": "AMPlify confidence vs fixed SD, entropy gap and model-specific inventory similarity, within each of 4 cohorts and each of 2 primary tasks; no joint regression fitted on small experimental cohorts; same block/tie/bootstrap rules; smaller than 5 blocks descriptive",
+  "interpretation": "historical source-label errors and experimental MIC-task errors reported separately; no causal failure mechanism, universal training independence, calibrated correctness or future risk guarantee",
+  "output": "new folder only; no overwrite of original predictions/Word/GitHub/Zenodo; caches excluded from portable result ZIP"
+}

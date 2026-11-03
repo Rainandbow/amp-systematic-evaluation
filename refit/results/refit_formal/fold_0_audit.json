@@ -1,0 +1,15 @@
+{
+  "held_source": "AMPlify",
+  "bootstrap": 2000,
+  "selection_n": 18573,
+  "selection_groups": 17062,
+  "held_n": 1467,
+  "held_groups": 1296,
+  "empty_development_draws": 0,
+  "failed_model_draws": 0,
+  "constant_fits": 0,
+  "group_overlap": false,
+  "selection_labels_only": true,
+  "inventory_references_fixed": true,
+  "seconds": 155.6059854030609
+}

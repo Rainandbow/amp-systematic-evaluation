@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "historical_records": 29104,
+  "historical_unique_sequences": 28481,
+  "historical_score_models": 5,
+  "experimental_candidates": 151,
+  "experimental_any_strain_positives": 121,
+  "reference_rows": 143160,
+  "partitions": 120,
+  "auxiliary_fits": 2400,
+  "all_fits_converged_or_explicit_constant": true,
+  "all_methods_full_coverage_equal": true,
+  "retained_positive_and_detection_monotone": true,
+  "primary_contrasts": 30,
+  "bootstrap": 10000,
+  "selector_refit": false,
+  "protocol_sha256": "1fe201f7eeb1248eadc52b420ad67940206466121af2521dad72a2b11ccc1c46",
+  "word_modified": false,
+  "github_zenodo_modified": false
+}

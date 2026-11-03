@@ -1,0 +1,19 @@
+{
+  "version": "development_refit_v1",
+  "fixed_at": "2026-11-02T23:13:17.227940+08:00",
+  "scope": "exploratory after original mixed effects known; no AMP refitting",
+  "primary_partition": 1,
+  "folds": 6,
+  "models": 5,
+  "contrast": "Logistic_C_L_I minus Logistic_C_L",
+  "retention": 0.8,
+  "bootstrap_draws": 2000,
+  "seed": 2026110209,
+  "development_resampling": "sample original selection global groups jointly across all five development sources, retain multiplicities and re-normalize source weights; preserve original selection/validation partition",
+  "held_resampling": "independent uniform held-source group bootstrap, shared models and methods within fold",
+  "reference": "fixed original model-specific inventory; no development-distance feature in primary contrast",
+  "refit": "weighted scaling, intercept, slopes re-estimated in every development draw; ridge 0.01 fixed",
+  "invalid": "empty development source or failed fit undefined; no replacement; report counts",
+  "CI": "pointwise95 percentile; valid>=95%; nondegenerate; G>=5; unadjusted; includes development record sampling plus held record sampling, excludes new-source and training-weight uncertainty",
+  "secondary": "fixed-held composition across refits; compare original conditional intervals; first1000 versus all2000 quantile stability; do not choose B by favorable conclusion"
+}

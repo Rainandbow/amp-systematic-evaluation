@@ -1,0 +1,7 @@
+﻿model	native_classification_available	confidence_selection_eligible	inventory_role	note
+Macrel	True	True	source_proxy_NOT_VERIFIED_TRAIN	fixed saved AMP score; not assumed calibrated
+AMPlify	True	True	supplied_TRAIN_weight_mapping_not_proven	fixed saved AMP score; not assumed calibrated
+ampir	True	True	recovered_official_TRAIN_weight_mapping_not_proven	fixed saved AMP score; not assumed calibrated
+tsAMP_I	True	True	available_partial_TRAIN	fixed saved AMP score; not assumed calibrated
+HMD_AMP	True	True	training_source_pool_NOT_final_fit_membership	fixed saved AMP score; not assumed calibrated
+c_AMPs	True	False	TRAIN_sequence_mapping_UNAVAILABLE	native ensemble probability unavailable
